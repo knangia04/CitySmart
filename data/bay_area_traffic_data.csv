@@ -1,0 +1,1001 @@
+Timestamp,Route,TypeOfCollision,Description
+2024-08-21 03:49:37,CA-35,Bicycle,A cyclist was hit by a car at an intersection.
+2024-09-15 02:44:50,CA-92,Multi-vehicle,Two vehicles collided while changing lanes.
+2024-08-13 02:03:49,CA-35,Multi-vehicle,Two vehicles collided while changing lanes.
+2024-02-16 06:16:15,San Francisco Bay Bridge,Rear-end,A motorcycle collided with a car making a left turn.
+2024-04-01 13:30:40,Bay Bridge Toll Plaza,Single vehicle,A rollover accident caused by excessive speeding.
+2024-01-28 03:18:40,CA-35,Side-swipe,Multiple vehicles were involved in a pile-up on the highway.
+2024-03-08 12:43:01,CA-24,Bicycle,Two vehicles collided while changing lanes.
+2024-05-30 13:37:03,US-101,Pedestrian,A motorcycle collided with a car making a left turn.
+2024-04-03 09:13:22,CA-4,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-01-12 09:15:46,CA-35,Side-swipe,A car rear-ended another vehicle at a stoplight.
+2024-09-01 20:38:39,CA-35,Head-on,A pedestrian was struck while crossing the street.
+2024-05-11 10:44:20,Bay Bridge Toll Plaza,Bicycle,A hit-and-run incident on the freeway.
+2024-06-16 20:16:14,Embarcadero,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-09-05 05:20:03,US-101,Pedestrian,A head-on collision occurred due to a wrong-way driver.
+2024-02-29 09:24:37,Embarcadero,Head-on,A pedestrian was struck while crossing the street.
+2024-02-07 14:27:28,Bay Bridge Toll Plaza,Rollover,A hit-and-run incident on the freeway.
+2024-06-14 12:41:27,I-880,Multi-vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-02-29 07:47:08,Golden Gate Bridge,Motorcycle,A car rear-ended another vehicle at a stoplight.
+2024-04-11 04:29:17,I-80,Side-swipe,A head-on collision occurred due to a wrong-way driver.
+2024-02-11 21:12:16,CA-35,Single vehicle,A rollover accident caused by excessive speeding.
+2024-08-18 16:59:20,CA-37,Rollover,A motorcycle collided with a car making a left turn.
+2024-01-07 01:48:01,CA-37,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-05-01 19:27:21,CA-4,Motorcycle,A hit-and-run incident on the freeway.
+2024-09-24 23:22:32,Bay Bridge Toll Plaza,Bicycle,A cyclist was hit by a car at an intersection.
+2024-05-26 15:47:30,CA-24,Hit and Run,A car rear-ended another vehicle at a stoplight.
+2024-06-09 05:10:04,CA-92,Head-on,A car rear-ended another vehicle at a stoplight.
+2024-06-02 19:10:58,Bay Bridge Toll Plaza,Rollover,A car rear-ended another vehicle at a stoplight.
+2024-05-04 04:08:56,CA-35,Motorcycle,A hit-and-run incident on the freeway.
+2024-06-03 18:09:42,CA-24,Side-swipe,A head-on collision occurred due to a wrong-way driver.
+2024-02-17 04:19:27,CA-24,Bicycle,A hit-and-run incident on the freeway.
+2024-08-09 02:32:26,CA-24,Hit and Run,A motorcycle collided with a car making a left turn.
+2024-06-01 13:22:12,CA-24,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-08-15 12:18:59,US-101,Rear-end,A rollover accident caused by excessive speeding.
+2024-04-12 18:50:15,Bay Bridge Toll Plaza,Head-on,A pedestrian was struck while crossing the street.
+2024-07-11 07:27:41,CA-24,Hit and Run,Multiple vehicles were involved in a pile-up on the highway.
+2024-06-01 19:20:02,US-101,Multi-vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-09-30 14:57:58,CA-92,Rear-end,A rollover accident caused by excessive speeding.
+2024-01-28 11:40:15,San Francisco Bay Bridge,Multi-vehicle,A motorcycle collided with a car making a left turn.
+2024-04-27 20:18:54,US-101,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-01-31 22:04:50,San Francisco Bay Bridge,Single vehicle,Two vehicles collided while changing lanes.
+2024-04-05 07:54:22,Embarcadero,Rear-end,A motorcycle collided with a car making a left turn.
+2024-05-10 15:43:41,CA-92,Motorcycle,A motorcycle collided with a car making a left turn.
+2024-07-14 22:39:10,I-880,Rollover,A motorcycle collided with a car making a left turn.
+2024-07-21 17:46:41,CA-37,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-08-24 05:07:21,I-80,Multi-vehicle,A car rear-ended another vehicle at a stoplight.
+2024-03-18 10:34:42,Embarcadero,Bicycle,A rollover accident caused by excessive speeding.
+2024-06-16 00:49:21,CA-92,Hit and Run,A hit-and-run incident on the freeway.
+2024-03-01 12:12:31,I-880,Rollover,A motorcycle collided with a car making a left turn.
+2024-08-26 23:42:35,CA-37,Rear-end,A single vehicle accident where the driver lost control.
+2024-04-11 21:24:26,San Francisco Bay Bridge,Motorcycle,Two vehicles collided while changing lanes.
+2024-07-29 18:06:39,CA-37,Multi-vehicle,A rollover accident caused by excessive speeding.
+2024-07-15 17:22:49,US-101,Rear-end,A motorcycle collided with a car making a left turn.
+2024-08-05 21:04:04,US-101,Head-on,Multiple vehicles were involved in a pile-up on the highway.
+2024-07-16 17:37:13,CA-35,Rollover,A cyclist was hit by a car at an intersection.
+2024-08-27 01:08:25,US-101,Head-on,Two vehicles collided while changing lanes.
+2024-05-08 22:28:55,CA-35,Head-on,A motorcycle collided with a car making a left turn.
+2024-02-25 20:06:41,I-580,Hit and Run,A car rear-ended another vehicle at a stoplight.
+2024-09-28 12:30:32,US-101,Rear-end,A head-on collision occurred due to a wrong-way driver.
+2024-02-14 00:03:58,San Francisco Bay Bridge,Pedestrian,A rollover accident caused by excessive speeding.
+2024-01-05 23:56:37,Bay Bridge Toll Plaza,Motorcycle,A pedestrian was struck while crossing the street.
+2024-09-19 14:52:38,Golden Gate Bridge,Motorcycle,A cyclist was hit by a car at an intersection.
+2024-02-04 18:41:49,I-80,Pedestrian,A hit-and-run incident on the freeway.
+2024-08-21 18:45:43,I-580,Rollover,A head-on collision occurred due to a wrong-way driver.
+2024-09-25 09:37:54,Bay Bridge Toll Plaza,Single vehicle,A single vehicle accident where the driver lost control.
+2024-04-11 18:32:11,CA-24,Head-on,Two vehicles collided while changing lanes.
+2024-08-16 08:40:51,I-580,Side-swipe,A pedestrian was struck while crossing the street.
+2024-06-12 11:03:35,I-80,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-09-22 01:44:17,CA-92,Bicycle,A rollover accident caused by excessive speeding.
+2024-03-03 11:26:35,CA-24,Rear-end,A motorcycle collided with a car making a left turn.
+2024-01-31 17:44:38,Bay Bridge Toll Plaza,Pedestrian,A cyclist was hit by a car at an intersection.
+2024-02-01 22:46:35,CA-37,Rear-end,A rollover accident caused by excessive speeding.
+2024-02-18 17:50:37,I-580,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-06-27 17:05:10,Embarcadero,Multi-vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-06-05 20:51:55,Bay Bridge Toll Plaza,Side-swipe,A cyclist was hit by a car at an intersection.
+2024-04-25 17:59:20,San Francisco Bay Bridge,Rear-end,A car rear-ended another vehicle at a stoplight.
+2024-03-28 01:00:35,US-101,Side-swipe,A motorcycle collided with a car making a left turn.
+2024-08-31 17:03:20,CA-35,Multi-vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-05-22 00:35:46,CA-37,Motorcycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-03-18 10:13:37,I-580,Rollover,A hit-and-run incident on the freeway.
+2024-06-06 21:53:14,I-580,Rollover,A motorcycle collided with a car making a left turn.
+2024-06-10 18:52:54,Bay Bridge Toll Plaza,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-03-13 20:16:33,Golden Gate Bridge,Rollover,A car rear-ended another vehicle at a stoplight.
+2024-01-31 03:44:12,I-580,Hit and Run,A rollover accident caused by excessive speeding.
+2024-09-08 09:08:19,I-880,Multi-vehicle,A hit-and-run incident on the freeway.
+2024-06-09 07:00:23,US-101,Single vehicle,A car rear-ended another vehicle at a stoplight.
+2024-07-21 09:59:40,CA-35,Rear-end,A rollover accident caused by excessive speeding.
+2024-05-23 21:33:50,Bay Bridge Toll Plaza,Rear-end,A car rear-ended another vehicle at a stoplight.
+2024-02-11 16:52:52,CA-24,Single vehicle,Two vehicles collided while changing lanes.
+2024-09-22 15:55:53,I-880,Single vehicle,A hit-and-run incident on the freeway.
+2024-05-25 03:27:41,Bay Bridge Toll Plaza,Side-swipe,A car rear-ended another vehicle at a stoplight.
+2024-08-31 12:25:40,CA-4,Pedestrian,A motorcycle collided with a car making a left turn.
+2024-02-18 05:25:15,US-101,Pedestrian,Multiple vehicles were involved in a pile-up on the highway.
+2024-06-04 22:03:31,CA-92,Head-on,Two vehicles collided while changing lanes.
+2024-07-12 13:07:32,CA-4,Bicycle,A motorcycle collided with a car making a left turn.
+2024-09-24 19:40:08,I-580,Rear-end,A single vehicle accident where the driver lost control.
+2024-02-20 14:47:23,I-880,Head-on,A head-on collision occurred due to a wrong-way driver.
+2024-08-04 16:23:35,Embarcadero,Pedestrian,A rollover accident caused by excessive speeding.
+2024-04-01 00:17:13,US-101,Hit and Run,A head-on collision occurred due to a wrong-way driver.
+2024-02-12 20:53:37,Bay Bridge Toll Plaza,Head-on,Two vehicles collided while changing lanes.
+2024-04-01 01:32:21,CA-37,Bicycle,A rollover accident caused by excessive speeding.
+2024-01-24 07:48:39,CA-4,Side-swipe,A head-on collision occurred due to a wrong-way driver.
+2024-05-27 16:28:54,CA-35,Motorcycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-04-04 03:58:15,Golden Gate Bridge,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-01-10 02:19:15,CA-37,Bicycle,A pedestrian was struck while crossing the street.
+2024-03-24 00:22:58,Embarcadero,Rollover,Two vehicles collided while changing lanes.
+2024-09-03 01:42:45,CA-37,Multi-vehicle,A motorcycle collided with a car making a left turn.
+2024-08-05 00:21:08,CA-37,Motorcycle,A cyclist was hit by a car at an intersection.
+2024-09-15 18:31:06,CA-35,Hit and Run,Two vehicles collided while changing lanes.
+2024-07-13 06:10:06,CA-37,Pedestrian,A head-on collision occurred due to a wrong-way driver.
+2024-06-06 03:30:05,CA-4,Rear-end,A pedestrian was struck while crossing the street.
+2024-04-18 13:05:02,Golden Gate Bridge,Motorcycle,A car rear-ended another vehicle at a stoplight.
+2024-02-11 20:09:00,CA-35,Side-swipe,A hit-and-run incident on the freeway.
+2024-05-02 15:34:42,I-880,Hit and Run,Two vehicles collided while changing lanes.
+2024-04-27 09:19:47,Embarcadero,Head-on,Multiple vehicles were involved in a pile-up on the highway.
+2024-07-21 16:14:30,I-580,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-08-05 05:04:13,Golden Gate Bridge,Bicycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-04-20 02:15:40,CA-35,Bicycle,A rollover accident caused by excessive speeding.
+2024-06-20 04:11:18,Embarcadero,Hit and Run,A cyclist was hit by a car at an intersection.
+2024-06-01 19:38:35,Embarcadero,Single vehicle,A motorcycle collided with a car making a left turn.
+2024-03-20 15:20:04,US-101,Rear-end,Multiple vehicles were involved in a pile-up on the highway.
+2024-08-06 23:03:47,CA-92,Rear-end,A single vehicle accident where the driver lost control.
+2024-03-10 05:40:18,CA-35,Rear-end,A hit-and-run incident on the freeway.
+2024-08-19 10:41:49,CA-92,Motorcycle,A rollover accident caused by excessive speeding.
+2024-06-14 17:10:26,CA-24,Hit and Run,A single vehicle accident where the driver lost control.
+2024-09-24 13:00:48,CA-4,Single vehicle,A motorcycle collided with a car making a left turn.
+2024-08-28 04:33:05,US-101,Single vehicle,A motorcycle collided with a car making a left turn.
+2024-02-16 13:40:06,CA-35,Single vehicle,A car rear-ended another vehicle at a stoplight.
+2024-07-27 21:05:06,I-880,Bicycle,A cyclist was hit by a car at an intersection.
+2024-07-29 06:45:39,Bay Bridge Toll Plaza,Rollover,Two vehicles collided while changing lanes.
+2024-05-09 10:52:15,Bay Bridge Toll Plaza,Hit and Run,A rollover accident caused by excessive speeding.
+2024-06-24 12:37:19,I-880,Bicycle,Two vehicles collided while changing lanes.
+2024-01-28 13:06:04,I-80,Pedestrian,Multiple vehicles were involved in a pile-up on the highway.
+2024-07-06 00:21:11,I-880,Pedestrian,Two vehicles collided while changing lanes.
+2024-07-25 23:27:55,Golden Gate Bridge,Side-swipe,A cyclist was hit by a car at an intersection.
+2024-08-16 04:08:58,Embarcadero,Pedestrian,A pedestrian was struck while crossing the street.
+2024-01-30 19:00:25,CA-24,Rollover,A hit-and-run incident on the freeway.
+2024-04-05 23:38:48,US-101,Motorcycle,A pedestrian was struck while crossing the street.
+2024-05-26 23:20:59,US-101,Hit and Run,Two vehicles collided while changing lanes.
+2024-09-30 02:48:22,CA-24,Rear-end,A cyclist was hit by a car at an intersection.
+2024-01-25 23:15:25,I-880,Side-swipe,A single vehicle accident where the driver lost control.
+2024-01-17 20:51:30,CA-35,Pedestrian,Two vehicles collided while changing lanes.
+2024-03-25 01:01:32,I-80,Hit and Run,A single vehicle accident where the driver lost control.
+2024-08-31 11:56:57,Bay Bridge Toll Plaza,Motorcycle,A rollover accident caused by excessive speeding.
+2024-05-18 11:17:20,CA-35,Single vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-04-26 03:07:26,CA-37,Bicycle,A pedestrian was struck while crossing the street.
+2024-04-21 18:15:19,San Francisco Bay Bridge,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-06-19 16:52:24,CA-35,Rear-end,A single vehicle accident where the driver lost control.
+2024-07-21 02:06:19,CA-24,Rear-end,A car rear-ended another vehicle at a stoplight.
+2024-02-05 13:19:10,I-80,Side-swipe,A rollover accident caused by excessive speeding.
+2024-04-07 23:44:54,CA-92,Motorcycle,Two vehicles collided while changing lanes.
+2024-03-18 22:09:32,CA-35,Head-on,A rollover accident caused by excessive speeding.
+2024-01-08 02:01:49,Bay Bridge Toll Plaza,Multi-vehicle,A pedestrian was struck while crossing the street.
+2024-01-11 05:42:11,CA-37,Rear-end,A hit-and-run incident on the freeway.
+2024-08-20 00:02:25,CA-92,Side-swipe,A cyclist was hit by a car at an intersection.
+2024-03-03 05:25:19,CA-92,Pedestrian,A single vehicle accident where the driver lost control.
+2024-04-28 15:16:26,Embarcadero,Side-swipe,A head-on collision occurred due to a wrong-way driver.
+2024-05-13 19:49:57,Golden Gate Bridge,Hit and Run,A pedestrian was struck while crossing the street.
+2024-06-22 19:27:02,US-101,Pedestrian,A pedestrian was struck while crossing the street.
+2024-04-24 15:23:34,Embarcadero,Side-swipe,A rollover accident caused by excessive speeding.
+2024-07-23 05:19:28,CA-24,Rollover,A cyclist was hit by a car at an intersection.
+2024-06-30 09:09:00,I-580,Hit and Run,A pedestrian was struck while crossing the street.
+2024-06-10 19:05:38,CA-92,Side-swipe,A pedestrian was struck while crossing the street.
+2024-06-07 22:36:29,CA-4,Single vehicle,A single vehicle accident where the driver lost control.
+2024-09-19 02:53:04,CA-37,Rollover,Two vehicles collided while changing lanes.
+2024-04-06 19:15:35,Embarcadero,Motorcycle,A pedestrian was struck while crossing the street.
+2024-03-25 01:35:11,I-80,Bicycle,A single vehicle accident where the driver lost control.
+2024-03-31 01:07:11,US-101,Rear-end,A motorcycle collided with a car making a left turn.
+2024-08-08 15:44:26,Golden Gate Bridge,Motorcycle,A car rear-ended another vehicle at a stoplight.
+2024-05-02 07:07:51,CA-92,Side-swipe,A head-on collision occurred due to a wrong-way driver.
+2024-01-29 17:14:28,I-880,Bicycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-04-05 21:18:13,I-80,Rollover,A head-on collision occurred due to a wrong-way driver.
+2024-09-07 18:20:30,CA-35,Rollover,A cyclist was hit by a car at an intersection.
+2024-02-17 02:27:32,I-580,Multi-vehicle,A pedestrian was struck while crossing the street.
+2024-06-19 11:35:28,Golden Gate Bridge,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-06-03 11:17:37,San Francisco Bay Bridge,Hit and Run,A cyclist was hit by a car at an intersection.
+2024-08-02 21:23:42,CA-37,Head-on,A rollover accident caused by excessive speeding.
+2024-06-12 04:08:19,I-80,Single vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-09-16 07:43:20,Golden Gate Bridge,Head-on,Multiple vehicles were involved in a pile-up on the highway.
+2024-08-08 08:45:09,I-80,Hit and Run,A car rear-ended another vehicle at a stoplight.
+2024-05-13 20:48:30,CA-35,Hit and Run,A pedestrian was struck while crossing the street.
+2024-02-19 20:23:46,Golden Gate Bridge,Multi-vehicle,A rollover accident caused by excessive speeding.
+2024-08-12 05:27:23,I-880,Head-on,A head-on collision occurred due to a wrong-way driver.
+2024-03-28 17:25:47,I-580,Pedestrian,A car rear-ended another vehicle at a stoplight.
+2024-06-20 14:54:26,US-101,Side-swipe,A single vehicle accident where the driver lost control.
+2024-02-09 02:48:10,CA-35,Hit and Run,A hit-and-run incident on the freeway.
+2024-01-29 20:31:22,Bay Bridge Toll Plaza,Head-on,A single vehicle accident where the driver lost control.
+2024-07-01 03:56:21,Embarcadero,Pedestrian,Multiple vehicles were involved in a pile-up on the highway.
+2024-09-15 23:43:30,CA-37,Bicycle,A cyclist was hit by a car at an intersection.
+2024-01-09 14:35:15,I-880,Rollover,A hit-and-run incident on the freeway.
+2024-07-19 15:41:09,Embarcadero,Single vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-02-01 01:03:59,Golden Gate Bridge,Rollover,A car rear-ended another vehicle at a stoplight.
+2024-07-30 15:38:53,I-80,Rear-end,Two vehicles collided while changing lanes.
+2024-03-02 11:43:54,I-880,Bicycle,A car rear-ended another vehicle at a stoplight.
+2024-02-26 13:12:50,CA-35,Single vehicle,A motorcycle collided with a car making a left turn.
+2024-07-14 01:43:11,CA-37,Head-on,A hit-and-run incident on the freeway.
+2024-06-11 17:41:38,I-80,Pedestrian,A cyclist was hit by a car at an intersection.
+2024-08-29 16:29:51,CA-92,Motorcycle,A rollover accident caused by excessive speeding.
+2024-05-27 10:50:48,Golden Gate Bridge,Bicycle,A car rear-ended another vehicle at a stoplight.
+2024-07-30 10:47:27,San Francisco Bay Bridge,Rollover,A cyclist was hit by a car at an intersection.
+2024-03-26 14:35:56,CA-92,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-02-26 11:02:32,CA-35,Rollover,A single vehicle accident where the driver lost control.
+2024-06-05 20:00:13,Bay Bridge Toll Plaza,Rollover,A cyclist was hit by a car at an intersection.
+2024-05-13 22:24:39,CA-35,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-04-04 20:02:30,Golden Gate Bridge,Motorcycle,A single vehicle accident where the driver lost control.
+2024-04-10 11:08:25,I-580,Motorcycle,A rollover accident caused by excessive speeding.
+2024-03-28 07:07:57,I-880,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-06-15 21:02:41,CA-4,Head-on,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-08 18:32:56,Bay Bridge Toll Plaza,Bicycle,A cyclist was hit by a car at an intersection.
+2024-07-15 12:06:41,Bay Bridge Toll Plaza,Rear-end,A car rear-ended another vehicle at a stoplight.
+2024-09-08 10:34:15,Golden Gate Bridge,Hit and Run,A cyclist was hit by a car at an intersection.
+2024-03-28 04:39:31,I-580,Pedestrian,A car rear-ended another vehicle at a stoplight.
+2024-02-09 22:42:16,Golden Gate Bridge,Multi-vehicle,A pedestrian was struck while crossing the street.
+2024-04-28 21:17:54,I-580,Single vehicle,A cyclist was hit by a car at an intersection.
+2024-03-14 16:46:41,CA-92,Rollover,A car rear-ended another vehicle at a stoplight.
+2024-09-07 12:30:11,Bay Bridge Toll Plaza,Single vehicle,A hit-and-run incident on the freeway.
+2024-02-06 17:04:07,CA-4,Rear-end,A rollover accident caused by excessive speeding.
+2024-03-15 05:48:54,CA-24,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-09-01 17:52:05,CA-37,Head-on,A motorcycle collided with a car making a left turn.
+2024-09-04 13:18:24,CA-92,Hit and Run,A car rear-ended another vehicle at a stoplight.
+2024-01-21 06:31:24,CA-24,Hit and Run,A motorcycle collided with a car making a left turn.
+2024-06-23 05:03:47,San Francisco Bay Bridge,Single vehicle,A rollover accident caused by excessive speeding.
+2024-04-02 06:34:09,I-880,Single vehicle,A pedestrian was struck while crossing the street.
+2024-06-11 03:03:48,Golden Gate Bridge,Head-on,A hit-and-run incident on the freeway.
+2024-06-24 14:29:43,I-80,Hit and Run,A cyclist was hit by a car at an intersection.
+2024-07-16 00:49:32,CA-37,Head-on,A rollover accident caused by excessive speeding.
+2024-03-03 00:46:21,Embarcadero,Multi-vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-08-17 15:45:57,CA-24,Side-swipe,Two vehicles collided while changing lanes.
+2024-01-02 08:26:17,CA-24,Bicycle,A hit-and-run incident on the freeway.
+2024-09-30 02:45:10,San Francisco Bay Bridge,Motorcycle,Two vehicles collided while changing lanes.
+2024-05-09 23:58:25,CA-35,Bicycle,A cyclist was hit by a car at an intersection.
+2024-04-07 01:57:33,CA-24,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-07-30 00:29:01,San Francisco Bay Bridge,Hit and Run,A car rear-ended another vehicle at a stoplight.
+2024-02-09 08:29:10,CA-4,Single vehicle,Two vehicles collided while changing lanes.
+2024-02-06 02:02:45,I-580,Rollover,Multiple vehicles were involved in a pile-up on the highway.
+2024-02-09 08:41:23,CA-37,Bicycle,A motorcycle collided with a car making a left turn.
+2024-07-05 07:55:41,Bay Bridge Toll Plaza,Bicycle,A single vehicle accident where the driver lost control.
+2024-04-19 12:29:17,I-80,Pedestrian,A pedestrian was struck while crossing the street.
+2024-03-03 15:07:22,Golden Gate Bridge,Bicycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-06 01:42:03,San Francisco Bay Bridge,Rollover,Multiple vehicles were involved in a pile-up on the highway.
+2024-05-03 07:33:01,I-880,Side-swipe,A hit-and-run incident on the freeway.
+2024-07-01 13:08:09,CA-4,Bicycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-03 17:28:07,I-880,Side-swipe,Multiple vehicles were involved in a pile-up on the highway.
+2024-07-19 09:28:18,I-80,Bicycle,A single vehicle accident where the driver lost control.
+2024-08-11 19:31:26,US-101,Rear-end,A pedestrian was struck while crossing the street.
+2024-04-30 01:04:20,US-101,Side-swipe,A head-on collision occurred due to a wrong-way driver.
+2024-05-22 16:11:10,I-80,Rear-end,A rollover accident caused by excessive speeding.
+2024-06-12 20:17:39,US-101,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-06-06 05:21:49,US-101,Hit and Run,A cyclist was hit by a car at an intersection.
+2024-01-11 18:46:25,US-101,Head-on,A rollover accident caused by excessive speeding.
+2024-04-27 11:30:14,US-101,Pedestrian,A motorcycle collided with a car making a left turn.
+2024-05-21 20:23:18,US-101,Motorcycle,A single vehicle accident where the driver lost control.
+2024-07-29 01:38:53,CA-92,Pedestrian,Multiple vehicles were involved in a pile-up on the highway.
+2024-02-17 02:25:22,CA-37,Single vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-06-05 00:40:18,I-880,Rollover,A cyclist was hit by a car at an intersection.
+2024-07-09 03:06:18,Bay Bridge Toll Plaza,Side-swipe,A single vehicle accident where the driver lost control.
+2024-02-24 14:24:35,I-880,Hit and Run,A hit-and-run incident on the freeway.
+2024-07-16 13:38:53,San Francisco Bay Bridge,Single vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-03-17 12:12:11,Bay Bridge Toll Plaza,Rear-end,A hit-and-run incident on the freeway.
+2024-04-07 07:55:43,US-101,Rear-end,A head-on collision occurred due to a wrong-way driver.
+2024-02-09 23:16:05,I-80,Side-swipe,A rollover accident caused by excessive speeding.
+2024-02-18 12:14:56,San Francisco Bay Bridge,Side-swipe,Multiple vehicles were involved in a pile-up on the highway.
+2024-03-21 20:05:28,I-580,Motorcycle,Two vehicles collided while changing lanes.
+2024-07-17 03:30:33,CA-92,Single vehicle,A motorcycle collided with a car making a left turn.
+2024-04-29 09:19:21,San Francisco Bay Bridge,Bicycle,A hit-and-run incident on the freeway.
+2024-01-12 16:44:12,I-880,Bicycle,A motorcycle collided with a car making a left turn.
+2024-09-27 01:01:53,San Francisco Bay Bridge,Pedestrian,Two vehicles collided while changing lanes.
+2024-05-06 11:38:42,CA-35,Pedestrian,Two vehicles collided while changing lanes.
+2024-08-04 23:13:42,CA-37,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-03-26 22:12:02,CA-24,Motorcycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-04-22 20:41:04,San Francisco Bay Bridge,Single vehicle,A single vehicle accident where the driver lost control.
+2024-05-31 20:13:45,I-80,Bicycle,A car rear-ended another vehicle at a stoplight.
+2024-08-04 19:39:44,I-80,Multi-vehicle,Two vehicles collided while changing lanes.
+2024-02-11 09:42:59,CA-92,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-01-09 02:04:51,CA-4,Hit and Run,A single vehicle accident where the driver lost control.
+2024-01-27 09:13:53,CA-24,Head-on,A pedestrian was struck while crossing the street.
+2024-09-02 09:14:30,CA-37,Head-on,Multiple vehicles were involved in a pile-up on the highway.
+2024-07-12 22:38:48,CA-24,Bicycle,Two vehicles collided while changing lanes.
+2024-09-30 10:08:24,San Francisco Bay Bridge,Motorcycle,A single vehicle accident where the driver lost control.
+2024-06-09 15:00:24,Golden Gate Bridge,Bicycle,A single vehicle accident where the driver lost control.
+2024-02-22 02:49:27,CA-4,Rear-end,A rollover accident caused by excessive speeding.
+2024-04-01 12:56:58,I-880,Rear-end,A single vehicle accident where the driver lost control.
+2024-05-04 05:49:14,Bay Bridge Toll Plaza,Bicycle,A hit-and-run incident on the freeway.
+2024-02-15 09:51:22,I-880,Hit and Run,A single vehicle accident where the driver lost control.
+2024-01-28 03:44:51,San Francisco Bay Bridge,Rollover,A single vehicle accident where the driver lost control.
+2024-05-11 04:11:24,I-880,Side-swipe,A cyclist was hit by a car at an intersection.
+2024-09-29 18:09:39,Embarcadero,Rollover,A car rear-ended another vehicle at a stoplight.
+2024-05-05 19:46:54,I-580,Bicycle,A single vehicle accident where the driver lost control.
+2024-01-31 12:15:25,CA-92,Single vehicle,A pedestrian was struck while crossing the street.
+2024-03-06 12:09:53,I-880,Bicycle,A hit-and-run incident on the freeway.
+2024-09-08 00:52:05,CA-37,Head-on,A car rear-ended another vehicle at a stoplight.
+2024-05-24 12:33:08,Bay Bridge Toll Plaza,Motorcycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-04-20 23:59:14,Embarcadero,Rear-end,A cyclist was hit by a car at an intersection.
+2024-08-21 22:13:03,I-580,Side-swipe,Two vehicles collided while changing lanes.
+2024-03-16 14:23:50,I-880,Pedestrian,Two vehicles collided while changing lanes.
+2024-03-23 01:59:54,I-880,Bicycle,A car rear-ended another vehicle at a stoplight.
+2024-03-22 03:02:47,Bay Bridge Toll Plaza,Single vehicle,A hit-and-run incident on the freeway.
+2024-08-22 20:01:54,I-80,Pedestrian,A pedestrian was struck while crossing the street.
+2024-01-31 07:12:12,CA-35,Side-swipe,A motorcycle collided with a car making a left turn.
+2024-03-30 17:26:35,CA-92,Rear-end,A rollover accident caused by excessive speeding.
+2024-08-19 15:47:54,I-880,Pedestrian,A motorcycle collided with a car making a left turn.
+2024-07-13 14:11:26,CA-92,Pedestrian,A cyclist was hit by a car at an intersection.
+2024-02-28 15:04:44,I-880,Single vehicle,Two vehicles collided while changing lanes.
+2024-01-21 20:59:32,Embarcadero,Hit and Run,A pedestrian was struck while crossing the street.
+2024-01-15 12:41:55,CA-35,Motorcycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-05-17 11:57:54,I-580,Multi-vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-02-10 20:48:16,I-80,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-02-05 07:41:23,I-580,Bicycle,A cyclist was hit by a car at an intersection.
+2024-07-07 06:23:40,San Francisco Bay Bridge,Motorcycle,A rollover accident caused by excessive speeding.
+2024-01-22 07:09:28,CA-37,Pedestrian,Two vehicles collided while changing lanes.
+2024-06-03 09:07:02,San Francisco Bay Bridge,Side-swipe,A hit-and-run incident on the freeway.
+2024-08-02 20:46:48,Golden Gate Bridge,Rear-end,A hit-and-run incident on the freeway.
+2024-08-31 20:47:48,CA-4,Hit and Run,A head-on collision occurred due to a wrong-way driver.
+2024-05-18 05:44:13,Embarcadero,Bicycle,A pedestrian was struck while crossing the street.
+2024-01-19 17:51:41,I-580,Rear-end,A cyclist was hit by a car at an intersection.
+2024-08-14 15:57:25,Golden Gate Bridge,Motorcycle,A hit-and-run incident on the freeway.
+2024-03-30 11:40:27,I-880,Side-swipe,A car rear-ended another vehicle at a stoplight.
+2024-08-11 13:58:50,I-580,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-07-15 14:21:22,CA-37,Single vehicle,Two vehicles collided while changing lanes.
+2024-01-17 13:36:06,Golden Gate Bridge,Side-swipe,A single vehicle accident where the driver lost control.
+2024-01-11 22:16:36,I-80,Side-swipe,A rollover accident caused by excessive speeding.
+2024-02-19 11:00:45,CA-35,Hit and Run,A hit-and-run incident on the freeway.
+2024-01-24 06:10:46,San Francisco Bay Bridge,Hit and Run,A head-on collision occurred due to a wrong-way driver.
+2024-06-07 01:30:46,I-80,Rear-end,A hit-and-run incident on the freeway.
+2024-08-09 10:39:02,I-580,Single vehicle,A motorcycle collided with a car making a left turn.
+2024-02-17 06:07:16,Golden Gate Bridge,Hit and Run,Multiple vehicles were involved in a pile-up on the highway.
+2024-07-03 08:10:51,Bay Bridge Toll Plaza,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-08-19 17:47:00,Embarcadero,Rollover,A motorcycle collided with a car making a left turn.
+2024-05-20 23:11:40,CA-4,Multi-vehicle,A motorcycle collided with a car making a left turn.
+2024-03-29 01:49:12,US-101,Side-swipe,A hit-and-run incident on the freeway.
+2024-09-19 11:10:02,CA-35,Bicycle,A rollover accident caused by excessive speeding.
+2024-09-13 16:01:44,CA-4,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-02-10 09:59:12,CA-37,Hit and Run,A hit-and-run incident on the freeway.
+2024-02-16 00:28:10,CA-24,Pedestrian,A head-on collision occurred due to a wrong-way driver.
+2024-03-16 03:02:42,Golden Gate Bridge,Motorcycle,A motorcycle collided with a car making a left turn.
+2024-08-14 19:26:43,Bay Bridge Toll Plaza,Multi-vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-05-12 13:44:31,San Francisco Bay Bridge,Hit and Run,A motorcycle collided with a car making a left turn.
+2024-09-09 16:48:41,San Francisco Bay Bridge,Motorcycle,A rollover accident caused by excessive speeding.
+2024-03-02 09:19:40,CA-35,Rollover,A cyclist was hit by a car at an intersection.
+2024-09-26 18:04:35,I-80,Pedestrian,A motorcycle collided with a car making a left turn.
+2024-06-04 08:43:07,San Francisco Bay Bridge,Bicycle,A hit-and-run incident on the freeway.
+2024-05-04 21:54:38,CA-35,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-09-30 11:11:17,San Francisco Bay Bridge,Single vehicle,A cyclist was hit by a car at an intersection.
+2024-08-12 17:56:33,CA-4,Rollover,A car rear-ended another vehicle at a stoplight.
+2024-03-24 08:50:26,CA-92,Side-swipe,A rollover accident caused by excessive speeding.
+2024-08-07 11:27:28,I-80,Pedestrian,A cyclist was hit by a car at an intersection.
+2024-07-03 09:12:19,CA-24,Motorcycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-03-13 00:59:36,CA-37,Rear-end,A cyclist was hit by a car at an intersection.
+2024-09-18 14:18:30,US-101,Rollover,Multiple vehicles were involved in a pile-up on the highway.
+2024-06-05 18:17:51,San Francisco Bay Bridge,Motorcycle,A single vehicle accident where the driver lost control.
+2024-01-03 19:43:22,CA-24,Multi-vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-09-13 03:31:33,I-880,Hit and Run,A rollover accident caused by excessive speeding.
+2024-05-16 03:44:55,Embarcadero,Rear-end,A cyclist was hit by a car at an intersection.
+2024-03-09 20:27:46,Bay Bridge Toll Plaza,Head-on,A pedestrian was struck while crossing the street.
+2024-07-22 09:26:44,CA-4,Bicycle,A hit-and-run incident on the freeway.
+2024-02-24 07:00:15,Bay Bridge Toll Plaza,Multi-vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-03-14 03:06:21,I-80,Bicycle,Two vehicles collided while changing lanes.
+2024-02-27 03:53:11,CA-35,Motorcycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-02-23 22:37:27,CA-37,Motorcycle,A rollover accident caused by excessive speeding.
+2024-04-27 03:25:58,I-880,Bicycle,A single vehicle accident where the driver lost control.
+2024-05-25 18:12:23,San Francisco Bay Bridge,Pedestrian,A rollover accident caused by excessive speeding.
+2024-09-09 12:00:37,CA-24,Multi-vehicle,Two vehicles collided while changing lanes.
+2024-07-18 00:01:48,CA-4,Rear-end,A rollover accident caused by excessive speeding.
+2024-01-26 08:20:58,Golden Gate Bridge,Single vehicle,A single vehicle accident where the driver lost control.
+2024-09-14 10:24:13,CA-24,Head-on,A head-on collision occurred due to a wrong-way driver.
+2024-05-11 20:20:08,Embarcadero,Motorcycle,A pedestrian was struck while crossing the street.
+2024-09-07 13:14:25,CA-4,Side-swipe,Two vehicles collided while changing lanes.
+2024-03-08 01:39:48,Bay Bridge Toll Plaza,Rear-end,A rollover accident caused by excessive speeding.
+2024-05-25 16:56:11,I-880,Pedestrian,A head-on collision occurred due to a wrong-way driver.
+2024-06-18 07:02:43,Bay Bridge Toll Plaza,Motorcycle,A single vehicle accident where the driver lost control.
+2024-09-05 05:53:37,CA-92,Pedestrian,A cyclist was hit by a car at an intersection.
+2024-03-15 23:27:10,CA-24,Single vehicle,A rollover accident caused by excessive speeding.
+2024-07-12 20:15:58,CA-37,Head-on,A cyclist was hit by a car at an intersection.
+2024-04-26 04:16:22,CA-37,Hit and Run,A rollover accident caused by excessive speeding.
+2024-09-10 21:12:28,CA-24,Rollover,A car rear-ended another vehicle at a stoplight.
+2024-07-10 22:54:21,US-101,Pedestrian,A car rear-ended another vehicle at a stoplight.
+2024-05-31 12:53:10,US-101,Pedestrian,A pedestrian was struck while crossing the street.
+2024-08-20 22:51:16,CA-35,Pedestrian,A cyclist was hit by a car at an intersection.
+2024-05-29 11:53:36,CA-35,Single vehicle,Two vehicles collided while changing lanes.
+2024-05-03 17:28:05,I-80,Single vehicle,A single vehicle accident where the driver lost control.
+2024-04-21 14:25:41,CA-4,Head-on,A rollover accident caused by excessive speeding.
+2024-01-02 13:33:02,CA-35,Rollover,A rollover accident caused by excessive speeding.
+2024-06-18 18:41:26,I-880,Pedestrian,A hit-and-run incident on the freeway.
+2024-04-04 19:19:08,San Francisco Bay Bridge,Pedestrian,A cyclist was hit by a car at an intersection.
+2024-07-08 03:32:23,I-580,Pedestrian,A hit-and-run incident on the freeway.
+2024-09-19 15:01:50,CA-37,Side-swipe,A rollover accident caused by excessive speeding.
+2024-01-06 12:13:00,I-580,Rollover,Two vehicles collided while changing lanes.
+2024-07-26 09:52:16,I-580,Side-swipe,Multiple vehicles were involved in a pile-up on the highway.
+2024-09-14 08:03:56,US-101,Hit and Run,A single vehicle accident where the driver lost control.
+2024-05-05 15:22:23,Embarcadero,Motorcycle,Two vehicles collided while changing lanes.
+2024-01-04 01:50:42,Golden Gate Bridge,Side-swipe,A hit-and-run incident on the freeway.
+2024-09-25 04:59:47,Bay Bridge Toll Plaza,Multi-vehicle,A motorcycle collided with a car making a left turn.
+2024-09-28 05:14:00,Bay Bridge Toll Plaza,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-01-08 16:22:02,CA-24,Motorcycle,A single vehicle accident where the driver lost control.
+2024-03-01 00:45:25,San Francisco Bay Bridge,Head-on,Two vehicles collided while changing lanes.
+2024-04-15 05:43:42,CA-24,Pedestrian,A rollover accident caused by excessive speeding.
+2024-09-30 09:49:19,CA-35,Motorcycle,A car rear-ended another vehicle at a stoplight.
+2024-06-09 12:11:17,CA-92,Hit and Run,A hit-and-run incident on the freeway.
+2024-01-30 05:26:19,CA-24,Pedestrian,A hit-and-run incident on the freeway.
+2024-02-20 20:48:41,I-580,Rear-end,A cyclist was hit by a car at an intersection.
+2024-07-02 02:33:15,Bay Bridge Toll Plaza,Rear-end,A single vehicle accident where the driver lost control.
+2024-02-06 00:46:14,Embarcadero,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-06-19 17:17:08,I-580,Head-on,Multiple vehicles were involved in a pile-up on the highway.
+2024-07-20 14:52:59,San Francisco Bay Bridge,Head-on,A head-on collision occurred due to a wrong-way driver.
+2024-09-18 18:27:49,CA-92,Hit and Run,A motorcycle collided with a car making a left turn.
+2024-01-08 15:36:59,CA-92,Rollover,A head-on collision occurred due to a wrong-way driver.
+2024-01-10 15:21:44,Bay Bridge Toll Plaza,Bicycle,Two vehicles collided while changing lanes.
+2024-09-26 23:44:00,Bay Bridge Toll Plaza,Hit and Run,Two vehicles collided while changing lanes.
+2024-09-22 14:16:32,San Francisco Bay Bridge,Motorcycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-12 19:18:19,Embarcadero,Bicycle,A motorcycle collided with a car making a left turn.
+2024-04-25 12:03:50,CA-37,Rollover,A pedestrian was struck while crossing the street.
+2024-01-07 11:58:23,CA-37,Side-swipe,A car rear-ended another vehicle at a stoplight.
+2024-05-31 13:45:41,Embarcadero,Rear-end,A rollover accident caused by excessive speeding.
+2024-01-18 21:54:57,CA-92,Bicycle,A rollover accident caused by excessive speeding.
+2024-09-03 06:40:31,I-80,Rear-end,A motorcycle collided with a car making a left turn.
+2024-06-17 08:20:20,Golden Gate Bridge,Rear-end,A single vehicle accident where the driver lost control.
+2024-01-15 14:22:30,CA-37,Pedestrian,A hit-and-run incident on the freeway.
+2024-02-24 04:59:41,I-80,Pedestrian,A motorcycle collided with a car making a left turn.
+2024-06-10 17:04:38,CA-24,Single vehicle,A car rear-ended another vehicle at a stoplight.
+2024-04-21 01:29:17,I-580,Side-swipe,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-24 06:29:40,I-80,Bicycle,A car rear-ended another vehicle at a stoplight.
+2024-03-05 21:24:14,CA-24,Side-swipe,A pedestrian was struck while crossing the street.
+2024-05-20 15:43:34,CA-37,Side-swipe,A rollover accident caused by excessive speeding.
+2024-01-09 15:11:45,US-101,Single vehicle,Two vehicles collided while changing lanes.
+2024-01-27 12:19:40,US-101,Rear-end,A motorcycle collided with a car making a left turn.
+2024-02-10 16:14:30,CA-4,Rollover,A car rear-ended another vehicle at a stoplight.
+2024-08-26 02:02:44,US-101,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-07-04 01:34:53,CA-92,Bicycle,Two vehicles collided while changing lanes.
+2024-01-07 00:02:51,Bay Bridge Toll Plaza,Multi-vehicle,A rollover accident caused by excessive speeding.
+2024-07-25 16:03:26,CA-35,Pedestrian,A motorcycle collided with a car making a left turn.
+2024-05-26 12:38:03,US-101,Head-on,Multiple vehicles were involved in a pile-up on the highway.
+2024-07-25 13:05:10,CA-4,Head-on,A head-on collision occurred due to a wrong-way driver.
+2024-05-01 22:02:50,CA-35,Multi-vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-22 06:45:41,I-580,Motorcycle,A hit-and-run incident on the freeway.
+2024-07-27 11:08:56,CA-4,Rollover,Multiple vehicles were involved in a pile-up on the highway.
+2024-03-28 07:11:13,Bay Bridge Toll Plaza,Head-on,A single vehicle accident where the driver lost control.
+2024-02-09 21:32:46,I-580,Side-swipe,A pedestrian was struck while crossing the street.
+2024-07-30 21:49:16,US-101,Hit and Run,A motorcycle collided with a car making a left turn.
+2024-04-18 12:57:55,CA-24,Bicycle,A car rear-ended another vehicle at a stoplight.
+2024-03-25 19:47:32,CA-92,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-03-05 03:07:00,Embarcadero,Side-swipe,A cyclist was hit by a car at an intersection.
+2024-09-13 04:35:42,San Francisco Bay Bridge,Bicycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-07-03 03:57:33,Golden Gate Bridge,Rollover,A cyclist was hit by a car at an intersection.
+2024-02-22 17:18:48,I-80,Rollover,A hit-and-run incident on the freeway.
+2024-09-21 10:31:46,I-80,Rear-end,A car rear-ended another vehicle at a stoplight.
+2024-05-04 20:18:00,Embarcadero,Single vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-04-15 15:37:07,I-580,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-04-29 01:30:11,San Francisco Bay Bridge,Motorcycle,Two vehicles collided while changing lanes.
+2024-06-05 14:08:58,CA-24,Side-swipe,A car rear-ended another vehicle at a stoplight.
+2024-09-16 08:02:43,US-101,Rear-end,A motorcycle collided with a car making a left turn.
+2024-03-31 05:27:35,CA-24,Rear-end,A motorcycle collided with a car making a left turn.
+2024-01-06 00:19:29,I-80,Multi-vehicle,A rollover accident caused by excessive speeding.
+2024-01-07 16:27:54,Bay Bridge Toll Plaza,Single vehicle,A single vehicle accident where the driver lost control.
+2024-02-15 04:41:39,CA-4,Hit and Run,A single vehicle accident where the driver lost control.
+2024-03-17 12:03:03,Embarcadero,Rear-end,A motorcycle collided with a car making a left turn.
+2024-05-24 21:21:02,CA-24,Rear-end,A pedestrian was struck while crossing the street.
+2024-08-23 05:43:07,Embarcadero,Side-swipe,A single vehicle accident where the driver lost control.
+2024-09-24 15:49:59,CA-4,Motorcycle,A car rear-ended another vehicle at a stoplight.
+2024-03-05 19:26:04,I-580,Side-swipe,A pedestrian was struck while crossing the street.
+2024-02-21 11:37:42,US-101,Rollover,A car rear-ended another vehicle at a stoplight.
+2024-09-10 11:32:42,San Francisco Bay Bridge,Single vehicle,A rollover accident caused by excessive speeding.
+2024-04-22 11:42:50,US-101,Rear-end,A single vehicle accident where the driver lost control.
+2024-09-20 16:21:12,CA-92,Bicycle,A car rear-ended another vehicle at a stoplight.
+2024-01-25 08:43:39,CA-35,Rollover,A single vehicle accident where the driver lost control.
+2024-04-10 22:47:51,CA-24,Rear-end,A car rear-ended another vehicle at a stoplight.
+2024-07-16 07:21:05,CA-92,Motorcycle,Two vehicles collided while changing lanes.
+2024-07-06 18:21:57,CA-35,Hit and Run,Multiple vehicles were involved in a pile-up on the highway.
+2024-03-29 01:06:28,Golden Gate Bridge,Multi-vehicle,A rollover accident caused by excessive speeding.
+2024-09-15 14:04:36,US-101,Head-on,A head-on collision occurred due to a wrong-way driver.
+2024-03-26 06:27:41,I-580,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-05-24 15:47:00,CA-37,Side-swipe,A car rear-ended another vehicle at a stoplight.
+2024-04-01 10:00:03,I-80,Head-on,A motorcycle collided with a car making a left turn.
+2024-01-27 11:23:52,CA-37,Head-on,Two vehicles collided while changing lanes.
+2024-02-26 04:20:30,CA-92,Rear-end,A motorcycle collided with a car making a left turn.
+2024-07-26 11:04:49,I-880,Multi-vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-02 15:30:56,Golden Gate Bridge,Motorcycle,A single vehicle accident where the driver lost control.
+2024-03-23 20:11:08,Embarcadero,Side-swipe,Multiple vehicles were involved in a pile-up on the highway.
+2024-04-07 10:35:45,I-580,Bicycle,A single vehicle accident where the driver lost control.
+2024-04-06 05:10:43,I-80,Rear-end,A head-on collision occurred due to a wrong-way driver.
+2024-04-10 18:22:43,I-880,Single vehicle,A car rear-ended another vehicle at a stoplight.
+2024-05-07 15:31:59,US-101,Side-swipe,A head-on collision occurred due to a wrong-way driver.
+2024-01-06 16:38:16,Golden Gate Bridge,Single vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-04-13 14:38:25,CA-37,Hit and Run,Multiple vehicles were involved in a pile-up on the highway.
+2024-07-01 11:34:21,I-880,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-03-05 13:55:41,CA-24,Rear-end,A cyclist was hit by a car at an intersection.
+2024-09-11 03:25:46,Embarcadero,Multi-vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-03-15 17:31:42,CA-35,Hit and Run,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-06 08:39:08,US-101,Rear-end,A hit-and-run incident on the freeway.
+2024-08-25 17:52:14,San Francisco Bay Bridge,Head-on,A cyclist was hit by a car at an intersection.
+2024-09-05 21:48:16,CA-35,Hit and Run,A rollover accident caused by excessive speeding.
+2024-02-19 17:34:58,CA-37,Side-swipe,A motorcycle collided with a car making a left turn.
+2024-04-23 00:06:06,I-880,Motorcycle,A pedestrian was struck while crossing the street.
+2024-08-28 10:10:57,CA-4,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-08-04 06:01:54,CA-4,Rear-end,Multiple vehicles were involved in a pile-up on the highway.
+2024-08-25 05:41:32,San Francisco Bay Bridge,Side-swipe,A head-on collision occurred due to a wrong-way driver.
+2024-08-22 17:49:53,I-80,Hit and Run,A cyclist was hit by a car at an intersection.
+2024-02-22 06:47:10,I-880,Rollover,A hit-and-run incident on the freeway.
+2024-01-23 03:01:11,Bay Bridge Toll Plaza,Single vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-04-14 01:13:54,CA-35,Hit and Run,A pedestrian was struck while crossing the street.
+2024-03-03 08:18:34,I-880,Side-swipe,A single vehicle accident where the driver lost control.
+2024-03-28 12:55:05,CA-37,Rollover,A motorcycle collided with a car making a left turn.
+2024-01-16 22:49:49,Golden Gate Bridge,Motorcycle,A hit-and-run incident on the freeway.
+2024-04-13 17:25:19,I-580,Rollover,A single vehicle accident where the driver lost control.
+2024-05-27 00:22:03,CA-92,Bicycle,A pedestrian was struck while crossing the street.
+2024-08-22 21:15:57,CA-4,Bicycle,A rollover accident caused by excessive speeding.
+2024-07-23 18:25:27,Bay Bridge Toll Plaza,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-01-28 15:45:08,CA-92,Rollover,A single vehicle accident where the driver lost control.
+2024-07-18 20:16:29,I-80,Hit and Run,Two vehicles collided while changing lanes.
+2024-06-10 10:45:08,I-580,Bicycle,A car rear-ended another vehicle at a stoplight.
+2024-07-31 03:52:40,San Francisco Bay Bridge,Single vehicle,A motorcycle collided with a car making a left turn.
+2024-09-05 00:54:45,CA-37,Multi-vehicle,A rollover accident caused by excessive speeding.
+2024-08-17 16:13:33,San Francisco Bay Bridge,Head-on,Two vehicles collided while changing lanes.
+2024-07-21 14:19:49,Bay Bridge Toll Plaza,Head-on,A cyclist was hit by a car at an intersection.
+2024-09-14 10:18:05,US-101,Pedestrian,A head-on collision occurred due to a wrong-way driver.
+2024-09-30 20:45:58,Golden Gate Bridge,Rear-end,A cyclist was hit by a car at an intersection.
+2024-06-26 23:08:19,CA-35,Side-swipe,A hit-and-run incident on the freeway.
+2024-05-06 08:16:25,US-101,Multi-vehicle,A pedestrian was struck while crossing the street.
+2024-05-15 23:58:11,I-80,Bicycle,A rollover accident caused by excessive speeding.
+2024-04-13 21:31:31,Golden Gate Bridge,Bicycle,A rollover accident caused by excessive speeding.
+2024-04-12 03:25:21,I-880,Single vehicle,Two vehicles collided while changing lanes.
+2024-07-01 21:37:06,Golden Gate Bridge,Rollover,A head-on collision occurred due to a wrong-way driver.
+2024-07-10 22:15:13,CA-4,Rear-end,A pedestrian was struck while crossing the street.
+2024-08-28 07:43:01,Embarcadero,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-07-27 22:36:29,CA-35,Rollover,A cyclist was hit by a car at an intersection.
+2024-09-18 19:30:03,CA-37,Bicycle,A car rear-ended another vehicle at a stoplight.
+2024-08-28 09:26:19,CA-4,Hit and Run,A motorcycle collided with a car making a left turn.
+2024-08-07 22:20:31,Embarcadero,Pedestrian,A single vehicle accident where the driver lost control.
+2024-07-17 02:04:04,San Francisco Bay Bridge,Multi-vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-02-26 13:18:37,CA-92,Side-swipe,A head-on collision occurred due to a wrong-way driver.
+2024-01-22 09:39:48,I-880,Side-swipe,Two vehicles collided while changing lanes.
+2024-04-09 14:38:04,San Francisco Bay Bridge,Side-swipe,Two vehicles collided while changing lanes.
+2024-03-11 22:38:38,Golden Gate Bridge,Hit and Run,Two vehicles collided while changing lanes.
+2024-03-11 05:16:53,US-101,Single vehicle,A car rear-ended another vehicle at a stoplight.
+2024-03-19 02:46:06,CA-4,Single vehicle,A car rear-ended another vehicle at a stoplight.
+2024-06-15 22:20:36,Golden Gate Bridge,Multi-vehicle,A motorcycle collided with a car making a left turn.
+2024-04-03 14:10:52,CA-92,Single vehicle,A single vehicle accident where the driver lost control.
+2024-06-18 16:11:33,I-880,Hit and Run,A hit-and-run incident on the freeway.
+2024-03-02 14:50:20,CA-35,Rear-end,A single vehicle accident where the driver lost control.
+2024-03-31 15:03:19,I-580,Motorcycle,Two vehicles collided while changing lanes.
+2024-08-02 05:17:20,I-80,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-09-14 03:10:59,San Francisco Bay Bridge,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-04-12 05:21:19,CA-37,Single vehicle,A cyclist was hit by a car at an intersection.
+2024-03-09 20:26:47,US-101,Bicycle,Two vehicles collided while changing lanes.
+2024-05-17 22:28:32,CA-37,Rollover,A single vehicle accident where the driver lost control.
+2024-04-27 16:53:06,I-880,Hit and Run,A hit-and-run incident on the freeway.
+2024-08-29 12:43:13,San Francisco Bay Bridge,Hit and Run,Two vehicles collided while changing lanes.
+2024-05-04 05:25:11,CA-92,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-07-25 20:14:37,US-101,Multi-vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-09-05 09:14:31,CA-24,Hit and Run,A motorcycle collided with a car making a left turn.
+2024-04-11 00:59:31,I-80,Rear-end,Two vehicles collided while changing lanes.
+2024-08-22 04:27:33,I-580,Single vehicle,Two vehicles collided while changing lanes.
+2024-07-01 17:38:16,Embarcadero,Hit and Run,A car rear-ended another vehicle at a stoplight.
+2024-04-25 14:46:27,US-101,Side-swipe,A single vehicle accident where the driver lost control.
+2024-04-13 00:48:39,US-101,Pedestrian,Two vehicles collided while changing lanes.
+2024-08-15 20:34:33,Embarcadero,Single vehicle,A rollover accident caused by excessive speeding.
+2024-01-25 11:46:03,CA-37,Rear-end,A rollover accident caused by excessive speeding.
+2024-08-09 15:03:07,CA-35,Pedestrian,A pedestrian was struck while crossing the street.
+2024-07-06 18:38:16,CA-24,Motorcycle,A single vehicle accident where the driver lost control.
+2024-05-06 07:02:48,CA-24,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-08-22 21:33:57,San Francisco Bay Bridge,Rollover,Two vehicles collided while changing lanes.
+2024-05-01 11:26:12,CA-37,Multi-vehicle,A pedestrian was struck while crossing the street.
+2024-01-04 16:47:54,CA-35,Pedestrian,A car rear-ended another vehicle at a stoplight.
+2024-09-21 04:30:40,I-580,Hit and Run,A hit-and-run incident on the freeway.
+2024-07-24 02:45:09,CA-35,Single vehicle,A motorcycle collided with a car making a left turn.
+2024-05-24 00:15:26,I-80,Rollover,A pedestrian was struck while crossing the street.
+2024-09-15 17:02:21,Golden Gate Bridge,Rollover,Two vehicles collided while changing lanes.
+2024-09-26 07:04:24,I-80,Bicycle,Two vehicles collided while changing lanes.
+2024-04-03 07:33:48,Embarcadero,Pedestrian,Two vehicles collided while changing lanes.
+2024-01-27 01:40:45,CA-37,Multi-vehicle,A motorcycle collided with a car making a left turn.
+2024-05-27 11:45:55,CA-24,Bicycle,Two vehicles collided while changing lanes.
+2024-06-06 15:11:13,I-80,Single vehicle,Two vehicles collided while changing lanes.
+2024-04-13 00:35:31,CA-92,Rear-end,A hit-and-run incident on the freeway.
+2024-09-02 06:20:20,US-101,Hit and Run,Multiple vehicles were involved in a pile-up on the highway.
+2024-03-27 08:59:25,San Francisco Bay Bridge,Single vehicle,A cyclist was hit by a car at an intersection.
+2024-02-11 10:52:28,Embarcadero,Side-swipe,A head-on collision occurred due to a wrong-way driver.
+2024-07-31 12:16:27,CA-92,Motorcycle,A rollover accident caused by excessive speeding.
+2024-09-01 03:10:37,Bay Bridge Toll Plaza,Hit and Run,A pedestrian was struck while crossing the street.
+2024-05-26 13:38:51,Embarcadero,Head-on,A car rear-ended another vehicle at a stoplight.
+2024-04-29 20:54:20,CA-37,Rollover,A motorcycle collided with a car making a left turn.
+2024-08-12 04:57:05,I-880,Rear-end,A pedestrian was struck while crossing the street.
+2024-04-19 17:32:10,CA-37,Rollover,A rollover accident caused by excessive speeding.
+2024-02-27 10:23:14,San Francisco Bay Bridge,Head-on,A motorcycle collided with a car making a left turn.
+2024-04-24 05:42:35,Bay Bridge Toll Plaza,Hit and Run,A single vehicle accident where the driver lost control.
+2024-02-22 01:44:22,CA-35,Single vehicle,A car rear-ended another vehicle at a stoplight.
+2024-06-06 03:31:37,CA-35,Hit and Run,A car rear-ended another vehicle at a stoplight.
+2024-08-29 10:00:12,US-101,Side-swipe,A pedestrian was struck while crossing the street.
+2024-06-18 01:40:08,San Francisco Bay Bridge,Hit and Run,A motorcycle collided with a car making a left turn.
+2024-05-04 03:38:50,CA-35,Motorcycle,A pedestrian was struck while crossing the street.
+2024-06-27 23:03:42,I-80,Single vehicle,A hit-and-run incident on the freeway.
+2024-02-26 23:34:40,Golden Gate Bridge,Side-swipe,A motorcycle collided with a car making a left turn.
+2024-09-04 07:09:26,I-580,Head-on,Two vehicles collided while changing lanes.
+2024-02-04 13:05:01,CA-4,Hit and Run,Two vehicles collided while changing lanes.
+2024-08-02 23:10:02,CA-92,Single vehicle,A motorcycle collided with a car making a left turn.
+2024-04-16 18:51:07,San Francisco Bay Bridge,Hit and Run,A car rear-ended another vehicle at a stoplight.
+2024-07-21 19:34:17,San Francisco Bay Bridge,Motorcycle,A pedestrian was struck while crossing the street.
+2024-03-26 08:35:44,I-580,Rear-end,A rollover accident caused by excessive speeding.
+2024-04-30 09:44:25,I-880,Side-swipe,A rollover accident caused by excessive speeding.
+2024-02-25 10:14:23,Embarcadero,Hit and Run,Two vehicles collided while changing lanes.
+2024-02-16 22:59:12,Bay Bridge Toll Plaza,Bicycle,A cyclist was hit by a car at an intersection.
+2024-07-17 16:55:57,Bay Bridge Toll Plaza,Bicycle,A rollover accident caused by excessive speeding.
+2024-03-28 07:14:17,Embarcadero,Hit and Run,Multiple vehicles were involved in a pile-up on the highway.
+2024-07-12 10:42:35,I-580,Rear-end,A motorcycle collided with a car making a left turn.
+2024-03-12 11:28:18,CA-35,Hit and Run,A single vehicle accident where the driver lost control.
+2024-07-04 12:38:57,CA-37,Head-on,A hit-and-run incident on the freeway.
+2024-08-02 22:14:22,I-580,Multi-vehicle,A pedestrian was struck while crossing the street.
+2024-08-07 00:48:32,Bay Bridge Toll Plaza,Multi-vehicle,A rollover accident caused by excessive speeding.
+2024-01-26 11:13:56,CA-4,Hit and Run,A cyclist was hit by a car at an intersection.
+2024-01-06 18:53:31,I-580,Multi-vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-02-09 09:02:52,CA-35,Single vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-04-25 05:13:57,CA-37,Rollover,A cyclist was hit by a car at an intersection.
+2024-05-16 19:06:44,CA-92,Pedestrian,A rollover accident caused by excessive speeding.
+2024-07-19 11:16:37,CA-92,Bicycle,A cyclist was hit by a car at an intersection.
+2024-08-13 04:53:23,I-580,Side-swipe,A single vehicle accident where the driver lost control.
+2024-04-22 03:40:20,CA-35,Multi-vehicle,Two vehicles collided while changing lanes.
+2024-09-25 00:23:45,I-580,Side-swipe,A pedestrian was struck while crossing the street.
+2024-06-21 03:34:09,Embarcadero,Rear-end,A rollover accident caused by excessive speeding.
+2024-04-29 13:16:57,CA-37,Single vehicle,A pedestrian was struck while crossing the street.
+2024-09-17 04:32:11,I-880,Rollover,A motorcycle collided with a car making a left turn.
+2024-08-31 20:13:21,I-580,Side-swipe,A cyclist was hit by a car at an intersection.
+2024-04-04 06:30:04,Golden Gate Bridge,Bicycle,A motorcycle collided with a car making a left turn.
+2024-05-08 11:08:32,US-101,Pedestrian,A rollover accident caused by excessive speeding.
+2024-06-24 02:11:13,Golden Gate Bridge,Multi-vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-04-06 09:21:41,CA-4,Single vehicle,A cyclist was hit by a car at an intersection.
+2024-07-20 15:17:01,CA-92,Head-on,Two vehicles collided while changing lanes.
+2024-08-05 18:40:52,CA-24,Side-swipe,A single vehicle accident where the driver lost control.
+2024-04-18 22:58:41,Embarcadero,Rear-end,A head-on collision occurred due to a wrong-way driver.
+2024-09-19 13:09:55,CA-92,Side-swipe,A head-on collision occurred due to a wrong-way driver.
+2024-02-21 15:10:21,CA-92,Rear-end,A cyclist was hit by a car at an intersection.
+2024-08-07 14:08:30,San Francisco Bay Bridge,Hit and Run,A pedestrian was struck while crossing the street.
+2024-09-06 08:39:06,Golden Gate Bridge,Single vehicle,A hit-and-run incident on the freeway.
+2024-08-31 20:45:40,CA-92,Bicycle,A motorcycle collided with a car making a left turn.
+2024-08-20 06:59:43,Embarcadero,Single vehicle,A single vehicle accident where the driver lost control.
+2024-03-13 11:41:23,I-580,Bicycle,A pedestrian was struck while crossing the street.
+2024-02-04 15:26:27,US-101,Rollover,A single vehicle accident where the driver lost control.
+2024-05-20 10:25:43,CA-24,Motorcycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-05-06 15:06:23,I-80,Bicycle,A rollover accident caused by excessive speeding.
+2024-03-27 18:28:59,Bay Bridge Toll Plaza,Single vehicle,A single vehicle accident where the driver lost control.
+2024-09-03 21:54:56,CA-35,Motorcycle,A motorcycle collided with a car making a left turn.
+2024-01-21 14:52:02,CA-37,Hit and Run,Two vehicles collided while changing lanes.
+2024-05-24 14:50:41,Embarcadero,Motorcycle,A pedestrian was struck while crossing the street.
+2024-08-17 20:48:33,CA-4,Hit and Run,Two vehicles collided while changing lanes.
+2024-01-14 16:44:55,San Francisco Bay Bridge,Hit and Run,Multiple vehicles were involved in a pile-up on the highway.
+2024-02-14 14:55:47,CA-37,Pedestrian,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-12 09:10:33,CA-35,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-02-04 06:05:41,CA-4,Head-on,A car rear-ended another vehicle at a stoplight.
+2024-05-17 12:24:00,I-80,Hit and Run,A cyclist was hit by a car at an intersection.
+2024-09-04 02:53:38,US-101,Bicycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-04 14:32:30,I-880,Hit and Run,A pedestrian was struck while crossing the street.
+2024-06-16 06:07:08,CA-35,Rear-end,A car rear-ended another vehicle at a stoplight.
+2024-03-26 01:33:31,San Francisco Bay Bridge,Bicycle,A hit-and-run incident on the freeway.
+2024-05-02 23:47:47,I-880,Side-swipe,A cyclist was hit by a car at an intersection.
+2024-05-20 04:16:07,Golden Gate Bridge,Pedestrian,A motorcycle collided with a car making a left turn.
+2024-02-16 19:03:53,I-80,Multi-vehicle,Two vehicles collided while changing lanes.
+2024-07-19 15:11:43,CA-24,Head-on,Multiple vehicles were involved in a pile-up on the highway.
+2024-02-09 02:06:34,US-101,Pedestrian,A hit-and-run incident on the freeway.
+2024-04-28 12:53:32,Bay Bridge Toll Plaza,Hit and Run,A hit-and-run incident on the freeway.
+2024-04-07 16:35:55,San Francisco Bay Bridge,Head-on,A hit-and-run incident on the freeway.
+2024-07-26 08:03:07,CA-24,Side-swipe,A hit-and-run incident on the freeway.
+2024-04-02 15:57:15,CA-24,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-07-12 11:23:38,San Francisco Bay Bridge,Rollover,A pedestrian was struck while crossing the street.
+2024-04-16 13:28:55,CA-37,Hit and Run,Two vehicles collided while changing lanes.
+2024-02-12 21:27:05,CA-4,Single vehicle,A hit-and-run incident on the freeway.
+2024-08-26 14:29:54,Golden Gate Bridge,Rollover,Two vehicles collided while changing lanes.
+2024-03-10 15:59:01,Golden Gate Bridge,Bicycle,Two vehicles collided while changing lanes.
+2024-06-02 22:16:05,CA-37,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-07-09 01:52:01,Golden Gate Bridge,Hit and Run,A rollover accident caused by excessive speeding.
+2024-05-18 17:02:52,CA-35,Bicycle,A pedestrian was struck while crossing the street.
+2024-02-03 01:43:21,CA-37,Pedestrian,A single vehicle accident where the driver lost control.
+2024-03-28 09:50:09,Embarcadero,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-04-03 03:49:38,Bay Bridge Toll Plaza,Hit and Run,A single vehicle accident where the driver lost control.
+2024-05-12 22:46:50,I-880,Motorcycle,A single vehicle accident where the driver lost control.
+2024-04-15 12:17:13,I-80,Head-on,Multiple vehicles were involved in a pile-up on the highway.
+2024-05-13 21:09:11,CA-35,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-05-01 23:20:43,I-80,Single vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-17 17:08:14,I-80,Hit and Run,A motorcycle collided with a car making a left turn.
+2024-02-15 02:38:36,US-101,Head-on,A pedestrian was struck while crossing the street.
+2024-04-13 09:26:35,Embarcadero,Head-on,A motorcycle collided with a car making a left turn.
+2024-01-02 12:05:06,Embarcadero,Single vehicle,A single vehicle accident where the driver lost control.
+2024-03-18 12:58:20,CA-35,Rear-end,A motorcycle collided with a car making a left turn.
+2024-09-26 12:37:19,I-80,Side-swipe,A car rear-ended another vehicle at a stoplight.
+2024-04-09 00:02:46,San Francisco Bay Bridge,Hit and Run,A pedestrian was struck while crossing the street.
+2024-09-11 11:01:21,CA-92,Pedestrian,A pedestrian was struck while crossing the street.
+2024-08-07 06:56:38,San Francisco Bay Bridge,Hit and Run,Two vehicles collided while changing lanes.
+2024-07-08 05:12:12,Golden Gate Bridge,Rear-end,A motorcycle collided with a car making a left turn.
+2024-09-12 23:14:24,CA-35,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-06-11 21:51:37,CA-4,Multi-vehicle,Two vehicles collided while changing lanes.
+2024-02-26 03:09:52,CA-4,Bicycle,A cyclist was hit by a car at an intersection.
+2024-02-01 07:41:21,Bay Bridge Toll Plaza,Motorcycle,A hit-and-run incident on the freeway.
+2024-04-10 23:31:45,US-101,Head-on,A hit-and-run incident on the freeway.
+2024-02-09 04:55:02,CA-35,Rollover,A head-on collision occurred due to a wrong-way driver.
+2024-07-01 09:12:21,Golden Gate Bridge,Rear-end,Multiple vehicles were involved in a pile-up on the highway.
+2024-03-11 19:35:20,Golden Gate Bridge,Single vehicle,A rollover accident caused by excessive speeding.
+2024-06-03 09:09:11,US-101,Rollover,A pedestrian was struck while crossing the street.
+2024-07-22 02:59:51,I-580,Head-on,A car rear-ended another vehicle at a stoplight.
+2024-03-20 19:21:12,CA-37,Bicycle,A single vehicle accident where the driver lost control.
+2024-01-23 04:16:34,CA-35,Single vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-09-09 00:49:33,Bay Bridge Toll Plaza,Multi-vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-03-11 05:42:32,Embarcadero,Single vehicle,Two vehicles collided while changing lanes.
+2024-07-19 03:21:07,Golden Gate Bridge,Multi-vehicle,A car rear-ended another vehicle at a stoplight.
+2024-01-12 00:41:27,CA-35,Pedestrian,Two vehicles collided while changing lanes.
+2024-03-01 20:36:35,Golden Gate Bridge,Motorcycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-28 22:35:28,Embarcadero,Pedestrian,A hit-and-run incident on the freeway.
+2024-06-14 13:02:08,CA-35,Rear-end,A car rear-ended another vehicle at a stoplight.
+2024-01-04 15:26:43,Bay Bridge Toll Plaza,Hit and Run,A cyclist was hit by a car at an intersection.
+2024-05-13 19:33:20,CA-35,Multi-vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-01-14 17:40:55,CA-24,Side-swipe,Multiple vehicles were involved in a pile-up on the highway.
+2024-03-21 11:46:06,I-880,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-03-02 12:37:30,CA-37,Pedestrian,Two vehicles collided while changing lanes.
+2024-09-18 02:28:08,Golden Gate Bridge,Side-swipe,A rollover accident caused by excessive speeding.
+2024-07-09 04:00:25,Golden Gate Bridge,Pedestrian,A hit-and-run incident on the freeway.
+2024-01-07 22:44:44,CA-92,Hit and Run,A cyclist was hit by a car at an intersection.
+2024-05-01 02:06:37,Embarcadero,Single vehicle,A car rear-ended another vehicle at a stoplight.
+2024-04-07 09:17:47,I-580,Single vehicle,A motorcycle collided with a car making a left turn.
+2024-05-08 00:01:13,CA-24,Hit and Run,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-19 16:35:35,US-101,Side-swipe,A rollover accident caused by excessive speeding.
+2024-03-02 04:50:35,I-580,Hit and Run,A pedestrian was struck while crossing the street.
+2024-06-11 05:22:31,Embarcadero,Side-swipe,A head-on collision occurred due to a wrong-way driver.
+2024-06-11 20:16:17,CA-37,Side-swipe,A hit-and-run incident on the freeway.
+2024-04-08 11:44:29,CA-92,Rollover,A hit-and-run incident on the freeway.
+2024-02-13 23:34:34,I-80,Head-on,A pedestrian was struck while crossing the street.
+2024-04-08 11:50:28,I-80,Head-on,A cyclist was hit by a car at an intersection.
+2024-09-12 03:28:30,Embarcadero,Multi-vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-02-09 01:05:06,I-80,Bicycle,A motorcycle collided with a car making a left turn.
+2024-09-09 00:55:08,I-580,Head-on,A motorcycle collided with a car making a left turn.
+2024-02-21 18:44:00,I-880,Rollover,A cyclist was hit by a car at an intersection.
+2024-06-11 23:42:35,CA-92,Motorcycle,Two vehicles collided while changing lanes.
+2024-01-10 14:06:00,CA-35,Hit and Run,A cyclist was hit by a car at an intersection.
+2024-03-10 16:47:55,Embarcadero,Side-swipe,A motorcycle collided with a car making a left turn.
+2024-04-15 13:19:44,US-101,Pedestrian,A single vehicle accident where the driver lost control.
+2024-05-29 18:17:00,I-580,Rear-end,A hit-and-run incident on the freeway.
+2024-01-26 17:09:17,I-80,Rear-end,A single vehicle accident where the driver lost control.
+2024-02-27 22:59:54,I-580,Multi-vehicle,A pedestrian was struck while crossing the street.
+2024-06-09 00:07:08,Embarcadero,Single vehicle,A pedestrian was struck while crossing the street.
+2024-08-11 12:17:46,CA-24,Multi-vehicle,A car rear-ended another vehicle at a stoplight.
+2024-09-22 15:28:10,CA-24,Rollover,A pedestrian was struck while crossing the street.
+2024-04-20 14:00:47,Bay Bridge Toll Plaza,Rollover,Two vehicles collided while changing lanes.
+2024-06-14 12:33:57,Embarcadero,Side-swipe,A cyclist was hit by a car at an intersection.
+2024-02-25 01:56:50,CA-37,Bicycle,A cyclist was hit by a car at an intersection.
+2024-05-25 09:56:00,San Francisco Bay Bridge,Bicycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-03-17 16:43:20,Bay Bridge Toll Plaza,Pedestrian,A head-on collision occurred due to a wrong-way driver.
+2024-05-27 22:32:06,Embarcadero,Rollover,Two vehicles collided while changing lanes.
+2024-06-12 14:39:07,CA-92,Hit and Run,A motorcycle collided with a car making a left turn.
+2024-01-10 22:20:32,Golden Gate Bridge,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-05-06 03:48:08,Bay Bridge Toll Plaza,Hit and Run,A pedestrian was struck while crossing the street.
+2024-05-02 23:23:45,I-580,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-09-08 23:14:14,US-101,Head-on,A hit-and-run incident on the freeway.
+2024-09-22 19:44:00,Embarcadero,Head-on,A car rear-ended another vehicle at a stoplight.
+2024-07-05 04:30:17,Golden Gate Bridge,Single vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-06-21 07:18:01,Golden Gate Bridge,Rear-end,Two vehicles collided while changing lanes.
+2024-01-04 04:46:52,I-880,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-07-24 02:58:56,CA-24,Multi-vehicle,Two vehicles collided while changing lanes.
+2024-08-20 05:37:00,Bay Bridge Toll Plaza,Hit and Run,Two vehicles collided while changing lanes.
+2024-04-06 04:43:52,Bay Bridge Toll Plaza,Bicycle,A pedestrian was struck while crossing the street.
+2024-04-11 10:58:32,San Francisco Bay Bridge,Side-swipe,A rollover accident caused by excessive speeding.
+2024-09-01 07:19:31,CA-24,Rear-end,A hit-and-run incident on the freeway.
+2024-01-18 16:55:41,CA-35,Head-on,A rollover accident caused by excessive speeding.
+2024-06-02 03:55:40,CA-4,Rear-end,A motorcycle collided with a car making a left turn.
+2024-01-04 19:22:02,San Francisco Bay Bridge,Multi-vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-07-31 18:21:00,CA-92,Motorcycle,A single vehicle accident where the driver lost control.
+2024-06-23 13:10:13,CA-24,Pedestrian,A cyclist was hit by a car at an intersection.
+2024-09-09 08:59:52,Embarcadero,Pedestrian,A motorcycle collided with a car making a left turn.
+2024-04-02 00:07:19,I-880,Bicycle,A cyclist was hit by a car at an intersection.
+2024-03-09 20:07:09,I-580,Hit and Run,A head-on collision occurred due to a wrong-way driver.
+2024-01-11 19:38:28,I-80,Side-swipe,Multiple vehicles were involved in a pile-up on the highway.
+2024-07-24 19:43:21,US-101,Motorcycle,Two vehicles collided while changing lanes.
+2024-06-28 16:31:04,CA-24,Bicycle,Two vehicles collided while changing lanes.
+2024-06-27 19:26:03,CA-92,Motorcycle,A hit-and-run incident on the freeway.
+2024-04-17 02:48:48,CA-37,Single vehicle,A hit-and-run incident on the freeway.
+2024-06-11 10:30:06,US-101,Bicycle,A rollover accident caused by excessive speeding.
+2024-02-03 13:27:57,Bay Bridge Toll Plaza,Rollover,A pedestrian was struck while crossing the street.
+2024-03-16 22:25:28,I-880,Rear-end,A pedestrian was struck while crossing the street.
+2024-05-30 13:38:00,Golden Gate Bridge,Pedestrian,A hit-and-run incident on the freeway.
+2024-04-07 01:49:05,CA-4,Hit and Run,A car rear-ended another vehicle at a stoplight.
+2024-02-16 22:05:59,CA-4,Hit and Run,A pedestrian was struck while crossing the street.
+2024-02-04 22:20:27,US-101,Single vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-04-10 22:12:46,Embarcadero,Motorcycle,A rollover accident caused by excessive speeding.
+2024-02-07 15:11:15,Golden Gate Bridge,Rollover,A head-on collision occurred due to a wrong-way driver.
+2024-02-07 19:35:02,CA-24,Rollover,A rollover accident caused by excessive speeding.
+2024-06-24 15:20:27,I-580,Hit and Run,A head-on collision occurred due to a wrong-way driver.
+2024-06-06 02:32:31,Golden Gate Bridge,Bicycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-08-04 01:38:25,San Francisco Bay Bridge,Single vehicle,A hit-and-run incident on the freeway.
+2024-07-20 18:08:46,Golden Gate Bridge,Pedestrian,A hit-and-run incident on the freeway.
+2024-04-26 13:23:43,CA-24,Rollover,A car rear-ended another vehicle at a stoplight.
+2024-02-11 19:25:05,CA-24,Bicycle,A pedestrian was struck while crossing the street.
+2024-01-01 21:30:47,Golden Gate Bridge,Rollover,A car rear-ended another vehicle at a stoplight.
+2024-09-29 06:47:15,CA-24,Rear-end,A rollover accident caused by excessive speeding.
+2024-07-23 07:58:48,Golden Gate Bridge,Rear-end,A single vehicle accident where the driver lost control.
+2024-03-06 11:10:41,CA-24,Single vehicle,A cyclist was hit by a car at an intersection.
+2024-03-18 19:46:28,CA-37,Hit and Run,A cyclist was hit by a car at an intersection.
+2024-03-01 01:12:11,US-101,Single vehicle,A hit-and-run incident on the freeway.
+2024-06-28 10:57:49,Golden Gate Bridge,Side-swipe,A single vehicle accident where the driver lost control.
+2024-02-12 19:40:39,Embarcadero,Hit and Run,A pedestrian was struck while crossing the street.
+2024-03-30 17:12:25,Bay Bridge Toll Plaza,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-06-06 03:10:07,CA-92,Rear-end,A pedestrian was struck while crossing the street.
+2024-09-14 13:01:03,CA-37,Rear-end,Two vehicles collided while changing lanes.
+2024-04-28 17:36:26,CA-24,Pedestrian,Two vehicles collided while changing lanes.
+2024-04-09 00:02:10,Golden Gate Bridge,Single vehicle,A car rear-ended another vehicle at a stoplight.
+2024-08-26 10:48:57,CA-24,Bicycle,A car rear-ended another vehicle at a stoplight.
+2024-08-11 23:31:37,Embarcadero,Single vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-05-03 22:40:57,I-80,Motorcycle,Two vehicles collided while changing lanes.
+2024-06-09 11:49:57,US-101,Rear-end,Two vehicles collided while changing lanes.
+2024-01-05 09:18:01,CA-24,Bicycle,A motorcycle collided with a car making a left turn.
+2024-06-26 20:54:09,I-580,Rollover,A cyclist was hit by a car at an intersection.
+2024-05-12 14:27:53,CA-35,Side-swipe,A pedestrian was struck while crossing the street.
+2024-01-13 07:03:40,CA-35,Bicycle,Two vehicles collided while changing lanes.
+2024-04-30 07:01:35,San Francisco Bay Bridge,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-01-27 01:57:16,I-80,Bicycle,A motorcycle collided with a car making a left turn.
+2024-02-11 04:13:45,I-880,Rear-end,A car rear-ended another vehicle at a stoplight.
+2024-08-10 03:45:01,I-880,Side-swipe,A rollover accident caused by excessive speeding.
+2024-07-10 20:28:51,Bay Bridge Toll Plaza,Head-on,A head-on collision occurred due to a wrong-way driver.
+2024-06-20 02:41:28,US-101,Head-on,Two vehicles collided while changing lanes.
+2024-07-04 02:41:51,I-80,Head-on,A head-on collision occurred due to a wrong-way driver.
+2024-04-26 23:13:49,US-101,Multi-vehicle,A hit-and-run incident on the freeway.
+2024-08-16 01:21:56,US-101,Single vehicle,A car rear-ended another vehicle at a stoplight.
+2024-04-12 01:12:58,I-880,Bicycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-09-01 04:41:26,Bay Bridge Toll Plaza,Rear-end,A hit-and-run incident on the freeway.
+2024-07-03 21:06:42,Golden Gate Bridge,Side-swipe,A car rear-ended another vehicle at a stoplight.
+2024-06-08 15:59:58,I-880,Head-on,A motorcycle collided with a car making a left turn.
+2024-06-11 23:08:33,I-80,Bicycle,A single vehicle accident where the driver lost control.
+2024-09-30 18:41:34,CA-37,Rollover,Multiple vehicles were involved in a pile-up on the highway.
+2024-08-12 16:15:40,CA-37,Side-swipe,Multiple vehicles were involved in a pile-up on the highway.
+2024-03-24 15:58:12,CA-24,Hit and Run,A pedestrian was struck while crossing the street.
+2024-05-19 23:28:42,San Francisco Bay Bridge,Rear-end,A hit-and-run incident on the freeway.
+2024-02-13 03:29:34,US-101,Bicycle,A cyclist was hit by a car at an intersection.
+2024-07-23 21:32:38,Bay Bridge Toll Plaza,Single vehicle,Two vehicles collided while changing lanes.
+2024-08-23 12:09:53,CA-35,Pedestrian,A rollover accident caused by excessive speeding.
+2024-01-03 08:54:30,I-580,Rear-end,A hit-and-run incident on the freeway.
+2024-06-23 20:12:29,CA-35,Rollover,A pedestrian was struck while crossing the street.
+2024-07-12 12:48:27,CA-92,Motorcycle,Two vehicles collided while changing lanes.
+2024-09-11 23:19:40,CA-37,Motorcycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-03-21 23:42:50,Embarcadero,Head-on,Multiple vehicles were involved in a pile-up on the highway.
+2024-03-14 19:27:06,CA-37,Multi-vehicle,Two vehicles collided while changing lanes.
+2024-01-17 01:41:14,San Francisco Bay Bridge,Rear-end,A motorcycle collided with a car making a left turn.
+2024-02-28 20:13:39,CA-35,Rear-end,A single vehicle accident where the driver lost control.
+2024-07-04 13:53:45,I-580,Pedestrian,A pedestrian was struck while crossing the street.
+2024-04-15 16:04:49,CA-24,Single vehicle,A hit-and-run incident on the freeway.
+2024-03-20 20:23:26,US-101,Rear-end,A rollover accident caused by excessive speeding.
+2024-03-14 08:15:10,I-880,Side-swipe,A motorcycle collided with a car making a left turn.
+2024-01-25 12:25:27,Golden Gate Bridge,Rear-end,A hit-and-run incident on the freeway.
+2024-01-18 02:24:07,Golden Gate Bridge,Pedestrian,Two vehicles collided while changing lanes.
+2024-03-25 04:57:57,I-80,Single vehicle,A single vehicle accident where the driver lost control.
+2024-07-17 17:29:59,I-580,Hit and Run,Multiple vehicles were involved in a pile-up on the highway.
+2024-06-10 21:57:40,I-580,Rear-end,A motorcycle collided with a car making a left turn.
+2024-01-19 08:53:49,I-80,Pedestrian,A head-on collision occurred due to a wrong-way driver.
+2024-01-12 09:41:22,I-80,Single vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-02-11 10:02:12,I-880,Single vehicle,A motorcycle collided with a car making a left turn.
+2024-05-24 08:46:42,US-101,Rollover,A head-on collision occurred due to a wrong-way driver.
+2024-04-04 17:16:00,I-80,Side-swipe,A car rear-ended another vehicle at a stoplight.
+2024-06-24 23:03:02,Bay Bridge Toll Plaza,Side-swipe,Two vehicles collided while changing lanes.
+2024-04-20 13:28:31,I-580,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-09-22 17:39:58,CA-92,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-05-08 02:00:12,CA-92,Hit and Run,Two vehicles collided while changing lanes.
+2024-01-10 04:06:43,San Francisco Bay Bridge,Side-swipe,A single vehicle accident where the driver lost control.
+2024-04-06 14:50:09,I-580,Multi-vehicle,A car rear-ended another vehicle at a stoplight.
+2024-09-16 08:43:54,CA-35,Head-on,A pedestrian was struck while crossing the street.
+2024-03-09 09:01:28,Golden Gate Bridge,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-02-08 11:37:25,CA-92,Rear-end,A hit-and-run incident on the freeway.
+2024-03-18 17:58:45,Embarcadero,Rear-end,A single vehicle accident where the driver lost control.
+2024-06-13 00:30:21,CA-24,Bicycle,A car rear-ended another vehicle at a stoplight.
+2024-08-03 00:06:13,Golden Gate Bridge,Side-swipe,A single vehicle accident where the driver lost control.
+2024-09-05 04:11:30,CA-37,Rear-end,Multiple vehicles were involved in a pile-up on the highway.
+2024-09-26 23:30:37,I-880,Head-on,A cyclist was hit by a car at an intersection.
+2024-09-11 23:02:44,Golden Gate Bridge,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-04-06 06:08:38,I-80,Pedestrian,A head-on collision occurred due to a wrong-way driver.
+2024-05-03 00:55:35,Bay Bridge Toll Plaza,Motorcycle,Multiple vehicles were involved in a pile-up on the highway.
+2024-02-05 21:23:19,I-880,Single vehicle,A pedestrian was struck while crossing the street.
+2024-09-02 01:44:54,Golden Gate Bridge,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-08-31 05:04:11,CA-4,Multi-vehicle,A car rear-ended another vehicle at a stoplight.
+2024-04-21 12:00:04,Embarcadero,Rollover,A single vehicle accident where the driver lost control.
+2024-05-18 03:24:08,Embarcadero,Head-on,A pedestrian was struck while crossing the street.
+2024-03-08 22:41:31,CA-92,Hit and Run,A cyclist was hit by a car at an intersection.
+2024-07-26 22:09:01,CA-37,Hit and Run,A pedestrian was struck while crossing the street.
+2024-04-13 19:39:13,I-880,Side-swipe,A rollover accident caused by excessive speeding.
+2024-09-07 02:00:29,Embarcadero,Rollover,A motorcycle collided with a car making a left turn.
+2024-02-19 02:41:36,CA-35,Side-swipe,A head-on collision occurred due to a wrong-way driver.
+2024-02-26 03:14:48,CA-37,Rollover,A rollover accident caused by excessive speeding.
+2024-08-04 09:18:51,San Francisco Bay Bridge,Rear-end,A head-on collision occurred due to a wrong-way driver.
+2024-08-12 07:39:42,US-101,Pedestrian,A hit-and-run incident on the freeway.
+2024-03-20 14:13:09,CA-24,Rear-end,A motorcycle collided with a car making a left turn.
+2024-05-03 07:18:32,Bay Bridge Toll Plaza,Single vehicle,A motorcycle collided with a car making a left turn.
+2024-04-20 19:18:56,I-80,Rear-end,A pedestrian was struck while crossing the street.
+2024-07-11 06:16:08,CA-4,Rear-end,A hit-and-run incident on the freeway.
+2024-02-07 21:26:18,CA-37,Single vehicle,A single vehicle accident where the driver lost control.
+2024-05-16 23:33:17,I-880,Bicycle,Two vehicles collided while changing lanes.
+2024-05-09 06:28:27,Bay Bridge Toll Plaza,Rear-end,A hit-and-run incident on the freeway.
+2024-05-05 16:06:56,US-101,Motorcycle,Two vehicles collided while changing lanes.
+2024-02-09 10:55:24,CA-24,Head-on,A pedestrian was struck while crossing the street.
+2024-02-05 08:07:13,CA-4,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-03-24 07:29:24,US-101,Bicycle,A pedestrian was struck while crossing the street.
+2024-07-31 13:11:59,CA-92,Rollover,A hit-and-run incident on the freeway.
+2024-08-22 14:02:50,CA-4,Hit and Run,A single vehicle accident where the driver lost control.
+2024-02-03 16:50:11,CA-35,Multi-vehicle,A pedestrian was struck while crossing the street.
+2024-08-14 15:50:51,I-580,Side-swipe,A car rear-ended another vehicle at a stoplight.
+2024-05-14 00:57:26,CA-37,Motorcycle,Two vehicles collided while changing lanes.
+2024-06-08 01:00:03,I-880,Single vehicle,A rollover accident caused by excessive speeding.
+2024-07-02 01:27:46,Bay Bridge Toll Plaza,Side-swipe,A rollover accident caused by excessive speeding.
+2024-01-16 07:32:08,CA-4,Rollover,A motorcycle collided with a car making a left turn.
+2024-09-03 23:43:08,I-880,Rollover,A cyclist was hit by a car at an intersection.
+2024-04-08 22:17:12,CA-92,Rear-end,Multiple vehicles were involved in a pile-up on the highway.
+2024-07-21 15:00:51,I-80,Side-swipe,A rollover accident caused by excessive speeding.
+2024-08-17 09:40:33,I-80,Head-on,Two vehicles collided while changing lanes.
+2024-04-01 15:20:19,Golden Gate Bridge,Multi-vehicle,A single vehicle accident where the driver lost control.
+2024-08-07 06:04:32,CA-35,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-05-13 13:24:47,I-880,Side-swipe,Two vehicles collided while changing lanes.
+2024-05-27 04:41:23,Bay Bridge Toll Plaza,Single vehicle,A cyclist was hit by a car at an intersection.
+2024-04-14 02:22:50,I-80,Rear-end,A head-on collision occurred due to a wrong-way driver.
+2024-04-23 20:40:57,CA-24,Bicycle,A hit-and-run incident on the freeway.
+2024-06-17 02:01:25,I-580,Pedestrian,A pedestrian was struck while crossing the street.
+2024-04-28 14:02:19,Golden Gate Bridge,Single vehicle,A single vehicle accident where the driver lost control.
+2024-05-15 09:47:18,I-880,Side-swipe,A head-on collision occurred due to a wrong-way driver.
+2024-04-01 00:21:06,US-101,Rollover,Multiple vehicles were involved in a pile-up on the highway.
+2024-09-06 04:29:15,I-880,Hit and Run,A single vehicle accident where the driver lost control.
+2024-01-20 06:55:33,Embarcadero,Head-on,A car rear-ended another vehicle at a stoplight.
+2024-07-03 13:51:04,CA-4,Pedestrian,A cyclist was hit by a car at an intersection.
+2024-01-16 20:36:23,Embarcadero,Pedestrian,A single vehicle accident where the driver lost control.
+2024-03-30 09:28:00,CA-37,Side-swipe,A head-on collision occurred due to a wrong-way driver.
+2024-02-22 17:41:46,US-101,Rear-end,A pedestrian was struck while crossing the street.
+2024-08-11 20:02:58,CA-92,Side-swipe,A cyclist was hit by a car at an intersection.
+2024-05-11 20:02:40,Embarcadero,Single vehicle,A single vehicle accident where the driver lost control.
+2024-07-31 15:16:37,Bay Bridge Toll Plaza,Rollover,A car rear-ended another vehicle at a stoplight.
+2024-04-07 14:56:41,CA-35,Motorcycle,A cyclist was hit by a car at an intersection.
+2024-08-07 08:36:19,I-80,Side-swipe,A single vehicle accident where the driver lost control.
+2024-02-17 03:33:52,Embarcadero,Bicycle,A car rear-ended another vehicle at a stoplight.
+2024-07-05 13:11:18,CA-92,Rear-end,A cyclist was hit by a car at an intersection.
+2024-05-12 01:10:19,CA-35,Single vehicle,Two vehicles collided while changing lanes.
+2024-08-28 18:14:45,Bay Bridge Toll Plaza,Single vehicle,A cyclist was hit by a car at an intersection.
+2024-08-12 17:32:34,Golden Gate Bridge,Hit and Run,Two vehicles collided while changing lanes.
+2024-01-12 17:28:39,I-580,Side-swipe,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-19 18:27:21,Golden Gate Bridge,Pedestrian,A hit-and-run incident on the freeway.
+2024-05-22 23:32:35,Golden Gate Bridge,Rollover,A head-on collision occurred due to a wrong-way driver.
+2024-06-05 07:25:22,CA-37,Head-on,A hit-and-run incident on the freeway.
+2024-01-22 05:15:19,I-580,Single vehicle,A rollover accident caused by excessive speeding.
+2024-05-30 05:37:32,I-580,Hit and Run,A motorcycle collided with a car making a left turn.
+2024-02-17 02:17:24,Golden Gate Bridge,Side-swipe,A car rear-ended another vehicle at a stoplight.
+2024-06-25 23:17:19,I-80,Motorcycle,A pedestrian was struck while crossing the street.
+2024-05-10 02:58:22,CA-24,Multi-vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-06-29 08:13:55,CA-37,Single vehicle,A car rear-ended another vehicle at a stoplight.
+2024-05-24 04:29:15,CA-24,Bicycle,A car rear-ended another vehicle at a stoplight.
+2024-09-19 21:44:40,CA-24,Bicycle,A cyclist was hit by a car at an intersection.
+2024-09-20 05:14:26,Embarcadero,Bicycle,A cyclist was hit by a car at an intersection.
+2024-02-25 17:47:27,CA-37,Motorcycle,Two vehicles collided while changing lanes.
+2024-03-11 14:40:34,CA-35,Hit and Run,A car rear-ended another vehicle at a stoplight.
+2024-03-02 14:34:32,Embarcadero,Single vehicle,A car rear-ended another vehicle at a stoplight.
+2024-02-24 14:28:06,I-880,Rollover,Two vehicles collided while changing lanes.
+2024-02-05 00:57:59,CA-24,Pedestrian,A motorcycle collided with a car making a left turn.
+2024-02-14 09:24:31,San Francisco Bay Bridge,Head-on,A hit-and-run incident on the freeway.
+2024-09-27 04:49:58,US-101,Bicycle,A rollover accident caused by excessive speeding.
+2024-07-21 01:51:43,US-101,Head-on,A rollover accident caused by excessive speeding.
+2024-07-28 13:57:52,CA-4,Head-on,A car rear-ended another vehicle at a stoplight.
+2024-05-09 04:16:52,CA-92,Side-swipe,A rollover accident caused by excessive speeding.
+2024-08-18 16:12:09,Golden Gate Bridge,Rear-end,A head-on collision occurred due to a wrong-way driver.
+2024-05-28 12:22:05,I-580,Multi-vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-02-04 11:33:46,Golden Gate Bridge,Single vehicle,A hit-and-run incident on the freeway.
+2024-03-25 09:03:09,I-580,Multi-vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-02-20 03:32:18,CA-35,Rollover,A cyclist was hit by a car at an intersection.
+2024-09-30 08:41:55,CA-35,Pedestrian,A car rear-ended another vehicle at a stoplight.
+2024-01-25 17:01:03,I-880,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-09-28 23:14:48,CA-35,Side-swipe,A single vehicle accident where the driver lost control.
+2024-05-10 23:35:35,US-101,Head-on,A pedestrian was struck while crossing the street.
+2024-08-19 05:07:26,I-580,Side-swipe,Two vehicles collided while changing lanes.
+2024-09-27 03:10:36,US-101,Head-on,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-13 16:54:33,Embarcadero,Multi-vehicle,A rollover accident caused by excessive speeding.
+2024-08-24 05:07:35,I-580,Bicycle,A rollover accident caused by excessive speeding.
+2024-01-01 20:28:17,US-101,Hit and Run,Multiple vehicles were involved in a pile-up on the highway.
+2024-09-11 11:55:12,US-101,Side-swipe,Two vehicles collided while changing lanes.
+2024-05-26 02:21:42,I-880,Motorcycle,A motorcycle collided with a car making a left turn.
+2024-08-15 05:55:10,I-880,Multi-vehicle,A cyclist was hit by a car at an intersection.
+2024-02-19 02:21:49,CA-35,Hit and Run,Multiple vehicles were involved in a pile-up on the highway.
+2024-05-28 21:38:02,I-880,Pedestrian,A cyclist was hit by a car at an intersection.
+2024-01-28 04:16:28,I-580,Rollover,A motorcycle collided with a car making a left turn.
+2024-01-12 09:29:38,CA-92,Motorcycle,A cyclist was hit by a car at an intersection.
+2024-04-13 01:00:09,CA-37,Single vehicle,A single vehicle accident where the driver lost control.
+2024-09-28 10:02:25,I-80,Pedestrian,A single vehicle accident where the driver lost control.
+2024-04-09 02:38:07,Golden Gate Bridge,Pedestrian,Multiple vehicles were involved in a pile-up on the highway.
+2024-03-26 19:59:34,CA-4,Multi-vehicle,A pedestrian was struck while crossing the street.
+2024-04-25 21:09:03,CA-24,Rollover,A head-on collision occurred due to a wrong-way driver.
+2024-07-09 18:44:01,Golden Gate Bridge,Motorcycle,A single vehicle accident where the driver lost control.
+2024-05-23 06:49:43,I-880,Rear-end,Two vehicles collided while changing lanes.
+2024-04-16 23:18:06,Embarcadero,Multi-vehicle,A head-on collision occurred due to a wrong-way driver.
+2024-04-23 15:51:15,CA-37,Side-swipe,Multiple vehicles were involved in a pile-up on the highway.
+2024-01-29 05:28:23,CA-37,Rear-end,A rollover accident caused by excessive speeding.
+2024-03-18 02:33:27,I-880,Side-swipe,A motorcycle collided with a car making a left turn.
+2024-03-09 00:16:52,I-80,Head-on,A pedestrian was struck while crossing the street.
+2024-03-08 14:52:22,I-880,Rear-end,A motorcycle collided with a car making a left turn.
+2024-04-16 15:10:28,San Francisco Bay Bridge,Head-on,A rollover accident caused by excessive speeding.
+2024-05-30 15:01:29,San Francisco Bay Bridge,Pedestrian,A cyclist was hit by a car at an intersection.
+2024-03-12 09:52:36,I-80,Side-swipe,A car rear-ended another vehicle at a stoplight.
+2024-08-01 19:34:34,I-580,Bicycle,A car rear-ended another vehicle at a stoplight.
+2024-01-07 10:16:38,CA-92,Single vehicle,Multiple vehicles were involved in a pile-up on the highway.
+2024-02-20 12:16:21,CA-37,Rollover,A car rear-ended another vehicle at a stoplight.
+2024-03-19 02:23:53,I-580,Motorcycle,A single vehicle accident where the driver lost control.
+2024-09-13 21:21:11,I-80,Multi-vehicle,Two vehicles collided while changing lanes.
+2024-04-23 06:28:36,Golden Gate Bridge,Rear-end,A car rear-ended another vehicle at a stoplight.
+2024-08-27 01:33:31,I-580,Motorcycle,A head-on collision occurred due to a wrong-way driver.
+2024-07-01 15:17:01,CA-24,Bicycle,A head-on collision occurred due to a wrong-way driver.
+2024-04-09 21:32:46,San Francisco Bay Bridge,Multi-vehicle,A rollover accident caused by excessive speeding.
+2024-07-03 08:02:41,CA-35,Motorcycle,A hit-and-run incident on the freeway.
+2024-03-19 02:13:11,San Francisco Bay Bridge,Hit and Run,A cyclist was hit by a car at an intersection.
+2024-04-05 18:55:58,Bay Bridge Toll Plaza,Side-swipe,A car rear-ended another vehicle at a stoplight.
+2024-08-21 21:03:45,US-101,Pedestrian,A pedestrian was struck while crossing the street.
+2024-06-01 11:24:01,Bay Bridge Toll Plaza,Motorcycle,A car rear-ended another vehicle at a stoplight.
