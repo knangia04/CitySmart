@@ -12,10 +12,12 @@ db.init_app(app)
 # Register blueprints
 app.register_blueprint(user_bp)
 
-# Create database
-@app.before_first_request
-def create_tables():
-    db.create_all()
+@app.route('/')
+def home():
+    return 
 
+# Run the application
 if __name__ == '__main__':
+    with app.app_context():
+        db.create_all()  # Initialize the database tables
     app.run(debug=True)
