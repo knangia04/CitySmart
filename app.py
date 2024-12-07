@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 from config import Config
 from models import db, User
 from routes.user_routes import user_bp
+import pandas as pd
 
 app = Flask(__name__, static_folder='static')
 app.config.from_object(Config)
@@ -63,6 +64,54 @@ def signup():
     flash('Account created successfully! Please log in.', 'success')
     return redirect(url_for('home'))
 
+@app.route('/view-pollution-data')
+def view_pollution_data():
+    try:
+        data = pd.read_csv('data/bay_area_pollution_data.csv')
+
+        selected_location = request.args.get('location', '')
+        if selected_location:
+            data = data[data['Location'] == selected_location]
+
+        table_html = data.to_html(classes='table table-striped', index=False)
+
+        locations = data['Location'].unique().tolist()
+
+    except Exception as e:
+        flash(f"Error reading CSV file: {str(e)}", "danger")
+        return redirect(url_for('home'))
+
+    return render_template(
+        'pollution-data-view-template.html',
+        table=table_html,
+        locations=locations,
+        selected_location=selected_location
+    )
+
+
+@app.route('/view-traffic-data')
+def view_traffic_data():
+    try:
+        data = pd.read_csv('data/bay_area_traffic_data.csv')
+
+        selected_collision_type = request.args.get('collision_type', '')
+        if selected_collision_type:
+            data = data[data['TypeOfCollision'] == selected_collision_type]
+
+        table_html = data.to_html(classes='table table-striped', index=False)
+
+        collision_types = data['TypeOfCollision'].unique().tolist()
+
+    except Exception as e:
+        flash(f"Error reading CSV file: {str(e)}", "danger")
+        return redirect(url_for('home'))
+
+    return render_template(
+        'traffic-data-view-template.html',
+        table=table_html,
+        collision_types=collision_types,
+        selected_collision_type=selected_collision_type
+    )
 
 # Run the application
 if __name__ == '__main__':

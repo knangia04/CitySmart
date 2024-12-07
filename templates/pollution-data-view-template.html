@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pollution Data Viewer</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="{{ url_for('home') }}" class="back-link">Back to Home</a>
+        </header>
+
+        <h1>Bay Area Pollution Data</h1>
+
+        <div class="filter-container">
+            <label for="location">Filter by Location:</label>
+            <select id="location" onchange="filterData()">
+                <option value="">--Select a location--</option>
+                {% for loc in locations %}
+                    <option value="{{ loc }}" {% if loc == selected_location %}selected{% endif %}>
+                        {{ loc }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="data-container">
+            {{ table|safe }}
+        </div>
+    </div>
+
+    <script>
+        function filterData() {
+            const location = document.getElementById('location').value;
+            window.location.href = `/view-pollution-data?location=${encodeURIComponent(location)}`;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bay Area Traffic Data</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="{{ url_for('home') }}" class="back-link">Back to Home</a>
+        </header>
+
+        <h1>Bay Area Traffic Data</h1>
+
+        <div class="filter-container">
+            <label for="collision_type">Filter by Type of Collision:</label>
+            <select id="collision_type" onchange="filterData()">
+                <option value="">-- Select Collision Type --</option>
+                {% for collision in collision_types %}
+                    <option value="{{ collision }}"
+                        {% if collision == selected_collision_type %}selected{% endif %}>
+                        {{ collision }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="data-container">
+            {{ table|safe }}
+        </div>
+    </div>
+    
+    <script>
+        function filterData() {
+            const collisionType = document.getElementById('collision_type').value;
+            window.location.href = `/view-traffic-data?collision_type=${encodeURIComponent(collisionType)}`;
+        }
+    </script>
+</body>
+</html>
