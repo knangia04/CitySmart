@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from config import Config
 from models import db
 from routes.user_routes import user_bp
@@ -12,9 +12,10 @@ db.init_app(app)
 # Register blueprints
 app.register_blueprint(user_bp)
 
+# Root route serving login-template.html
 @app.route('/')
 def home():
-    return 
+    return render_template('login-template.html')
 
 # Run the application
 if __name__ == '__main__':
