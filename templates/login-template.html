@@ -25,7 +25,7 @@
             </div>
 
             <!-- Login Form -->
-            <form class="auth-form login-form active">
+            <form class="auth-form login-form active" action="{{ url_for('login') }}" method="POST">
                 <div class="form-group">
                     <label for="login-username">Username</label>
                     <input type="text" id="login-username" name="username" placeholder="Enter your username" required>
@@ -41,7 +41,7 @@
             </form>
 
             <!-- Sign Up Form -->
-            <form class="auth-form signup-form">
+            <form class="auth-form signup-form" action="{{ url_for('signup') }}" method="POST">
                 <div class="form-group">
                     <label for="signup-email">Email</label>
                     <input type="email" id="signup-email" name="email" placeholder="Enter your email" required>
@@ -81,5 +81,17 @@
             });
         });
     </script>
+    <div class="flash-messages">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+            <ul>
+              {% for category, message in messages %}
+                <li class="flash-message {{ category }}">{{ message }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endwith %}
+    </div>
+    
 </body>
 </html>

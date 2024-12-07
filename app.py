@@ -17,28 +17,52 @@ app.register_blueprint(user_bp)
 def home():
     return render_template('login-template.html')
 
-@app.route('/signup', methods=['GET', 'POST'])
+
+@app.route('/login', methods=['POST'])
+def login():
+    username = request.form.get('username')
+    password = request.form.get('password')
+
+    # Check if the user exists
+    user = User.query.filter_by(username=username).first()
+    if user and user.password == password:
+        flash('Login successful!', 'success')
+        return redirect(url_for('home'))
+    else:
+        flash('Invalid username or password', 'danger')
+        return redirect(url_for('home'))
+    
+
+# Route to handle signup
+@app.route('/signup', methods=['POST'])
 def signup():
-    if request.method == 'POST':
-        username = request.form.get('username')
-        email = request.form.get('email')
-        password = request.form.get('password')
+    email = request.form.get('email')
+    username = request.form.get('username')
+    password = request.form.get('password')
+    confirm_password = request.form.get('confirm-password')
 
-        # Check if user already exists
-        existing_user = User.query.filter_by(email=email).first()
-        if existing_user:
-            flash('Email already registered. Please log in.', 'danger')
-            return redirect(url_for('home'))
-
-        # Create a new user
-        new_user = User(username=username, email=email, password=password)
-        db.session.add(new_user)
-        db.session.commit()
-
-        flash('Account created successfully! Please log in.', 'success')
+    # Validate passwords match
+    if password != confirm_password:
+        flash('Passwords do not match!', 'danger')
         return redirect(url_for('home'))
 
-    return render_template('signup.html')
+    # Check if email or username already exists
+    if User.query.filter_by(email=email).first():
+        flash('Email is already registered!', 'danger')
+        return redirect(url_for('home'))
+    if User.query.filter_by(username=username).first():
+        flash('Username is already taken!', 'danger')
+        return redirect(url_for('home'))
+
+    # Create a new user
+    new_user = User(username=username, email=email)
+    new_user.set_password(password)
+    db.session.add(new_user)
+    db.session.commit()
+
+    flash('Account created successfully! Please log in.', 'success')
+    return redirect(url_for('home'))
+
 
 # Run the application
 if __name__ == '__main__':
