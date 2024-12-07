@@ -149,6 +149,26 @@ input:focus {
     animation: fadeIn 0.3s ease;
 }
 
+/* Flash popup styles */
+.popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #f8d7da; /* Default: Red for error */
+    color: #721c24;
+    padding: 15px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; /* Hidden by default */
+}
+.popup.success {
+    background-color: #d4edda; /* Green for success */
+    color: #155724;
+    border-color: #c3e6cb;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -177,4 +197,22 @@ input:focus {
         padding: 0.6rem;
         font-size: 0.9rem;
     }
+    
+}
+
+
+/* Center and style homepage text */
+.homepage-container {
+    text-align: center;
+    color: white;
+}
+
+.homepage-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.homepage-container p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }

@@ -13,8 +13,8 @@ def create_user():
     if User.query.filter_by(email=email).first():
         return jsonify({'error': 'Email already exists'}), 400
 
-    user = User(username=username, email=email)
-    user.set_password(password)
+    user = User(username=username, email=email, password = password)
+
     db.session.add(user)
     db.session.commit()
     return jsonify({'message': 'User created successfully'}), 201
