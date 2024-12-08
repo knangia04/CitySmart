@@ -5,12 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <style>
+        .stats-container {
+            margin-top: 30px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap; /* Ensures responsive layout */
+        }
+        .stats-box {
+            flex: 1 1 calc(50% - 20px); /* Two boxes per row with spacing */
+            padding: 20px;
+            background-color: #327fb3;  /* Light blue background */
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            min-width: 300px; /* Minimum width for smaller screens */
+        }
+        .stats-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .stats-table td {
+            padding: 8px;
+            border-bottom: 1px solid #0056b3;  /* Light blue border */
+        }
+        .stats-table td:first-child {
+            font-weight: bold;
+            width: 200px;
+        }
+    </style>
 </head>
 <body>
     <div class="homepage-container">
         <h1>Hello, {{ username }}.</h1>
         <p>The current time in {{ location }} is <span id="current-time">{{ current_time }}</span>.</p>
-    </div>
+    
+    <nav class="navigation-menu">
+        <a href="{{ url_for('settings.settings') }}" class="nav-link">Settings</a>
+        <a href="{{ url_for('weather.weather_data') }}" class="nav-link">Weather Data</a>
+    </nav>
+</div>
     <script>
         // Function to update the time every second
         function updateTime() {
