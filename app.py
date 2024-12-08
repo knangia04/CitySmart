@@ -4,6 +4,7 @@ from models import db, User
 from routes.user_routes import user_bp
 from routes.settings_routes import settings_bp
 import pandas as pd
+from sqlalchemy.sql import text
 
 from weather_routes import weather_bp  # Import the weather blueprint
 
@@ -36,8 +37,22 @@ def homepage():
 
     timezone = 'America/Los_Angeles'
     current_time = datetime.now(pytz.timezone(timezone)).strftime('%I:%M:%S %p')
+    query = text("""
+        SELECT W.Location, 
+               AVG(W.Temperature) AS AvgTemperature, 
+               AVG(W.Humidity) AS AvgHumidity,
+               AVG(P.FineParticulateMatter) AS AvgFineParticulateMatter, 
+               AVG(P.OzoneLevel) AS AvgOzoneLevel
+        FROM WeatherData W
+        JOIN PollutionData P ON W.Location = P.Location
+        WHERE W.Location = :location
+        GROUP BY W.Location
+    """)
+    
+    result = db.session.execute(query, {'location': location}).first()
 
-    return render_template('homepage.html', username=username, location=location, current_time=current_time)
+
+    return render_template('homepage.html', username=username, location=location, current_time=current_time, avg_stats=result)
 
 
 

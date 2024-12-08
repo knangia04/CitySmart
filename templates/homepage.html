@@ -5,6 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <style>
+        .stats-container {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #327fb3;  /* Light blue background */
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .stats-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .stats-table td {
+            padding: 8px;
+            border-bottom: 1px solid #0056b3;  /* Light blue border */
+        }
+        .stats-table td:first-child {
+            font-weight: bold;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="homepage-container">
+        <h1>Hello, {{ username }}.</h1>
+        <p>The current time in {{ location }} is <span id="current-time">{{ current_time }}</span>.</p>
+        
+        <nav class="navigation-menu">
+            <a href="{{ url_for('settings.settings') }}" class="nav-link">Settings</a>
+            <a href="{{ url_for('weather.weather_data') }}" class="nav-link">Weather Data</a>
+        </nav>
+
+        {% if avg_stats %}
+        <div class="stats-container">
+            <h2>Weather and Pollution in {{ location }}</h2>
+            <table class="stats-table">
+                <tr>
+                    <td>Average Temperature:</td>
+                    <td>{{ "%.2f"|format(avg_stats.AvgTemperature) }}°C</td>
+                </tr>
+                <tr>
+                    <td>Average Humidity:</td>
+                    <td>{{ "%.2f"|format(avg_stats.AvgHumidity) }}%</td>
+                </tr>
+                <tr>
+                    <td>Average Fine Particulate Matter:</td>
+                    <td>{{ "%.2f"|format(avg_stats.AvgFineParticulateMatter) }} µg/m³</td>
+                </tr>
+                <tr>
+                    <td>Average Ozone Level:</td>
+                    <td>{{ "%.2f"|format(avg_stats.AvgOzoneLevel) }} ppb</td>
+                </tr>
+            </table>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        function updateTime() {
+            const timeElement = document.getElementById('current-time');
+            const options = {
+                timeZone: "America/Los_Angeles",
+                hour: 'numeric', 
+                minute: 'numeric', 
+                second: 'numeric', 
+                hour12: true 
+            };
+            const formatter = new Intl.DateTimeFormat("en-US", options);
+            const currentTime = formatter.format(new Date());
+            timeElement.textContent = currentTime;
+        }
+
+        setInterval(updateTime, 1000);
+    </script>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
     <div class="homepage-container">
@@ -36,7 +119,7 @@
         setInterval(updateTime, 1000);
     </script>
 </body>
-</html>
+</html> -->
 <!-- <!DOCTYPE html>
 <html lang="en">
 <head>
