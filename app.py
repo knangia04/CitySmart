@@ -29,7 +29,6 @@ def home():
 
 
 # Other routes (login, signup, etc.)
-
 @app.route('/homepage')
 def homepage():
     username = session.get('username', 'Guest')
@@ -37,25 +36,41 @@ def homepage():
 
     timezone = 'America/Los_Angeles'
     current_time = datetime.now(pytz.timezone(timezone)).strftime('%I:%M:%S %p')
-    query = text("""
-        SELECT W.Location, 
-               AVG(W.Temperature) AS AvgTemperature, 
-               AVG(W.Humidity) AS AvgHumidity,
-               AVG(P.FineParticulateMatter) AS AvgFineParticulateMatter, 
-               AVG(P.OzoneLevel) AS AvgOzoneLevel
-        FROM WeatherData W
-        JOIN PollutionData P ON W.Location = P.Location
-        WHERE W.Location = :location
-        GROUP BY W.Location
-    """)
-    
-    result = db.session.execute(query, {'location': location}).first()
 
+    try:
+        # Start transaction
+        db.session.begin()
+        
+        query = text("""
+            SELECT W.Location, 
+                   AVG(W.Temperature) AS AvgTemperature, 
+                   AVG(W.Humidity) AS AvgHumidity,
+                   AVG(P.FineParticulateMatter) AS AvgFineParticulateMatter, 
+                   AVG(P.OzoneLevel) AS AvgOzoneLevel
+            FROM WeatherData W
+            JOIN PollutionData P ON W.Location = P.Location
+            WHERE W.Location = :location
+            GROUP BY W.Location
+        """)
+        
+        result = db.session.execute(query, {'location': location}).first()
 
-    return render_template('homepage.html', username=username, location=location, current_time=current_time, avg_stats=result)
+        # Commit the transaction if successful
+        db.session.commit()
 
+    except Exception as e:
+        # Rollback in case of an error
+        db.session.rollback()
+        flash(f"Error fetching weather stats: {str(e)}", "danger")
+        result = None  # Handle error gracefully
 
-
+    return render_template(
+        'homepage.html', 
+        username=username, 
+        location=location, 
+        current_time=current_time, 
+        avg_stats=result
+    )
 
 @app.route('/login', methods=['POST'])
 def login():
