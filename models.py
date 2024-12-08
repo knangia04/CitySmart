@@ -12,9 +12,9 @@ def init_db():
     with sqlite3.connect(db) as conn:
         cursor = conn.cursor()
 
-        # Create Users table
+        # Create user table
         cursor.execute("""
-        CREATE TABLE IF NOT EXISTS Users (
+        CREATE TABLE IF NOT EXISTS user (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             username TEXT NOT NULL UNIQUE,
             email TEXT NOT NULL UNIQUE,
@@ -23,28 +23,28 @@ def init_db():
         );
         """)
 
-        # Create NotificationPreferences table
+        # Create notification_preferences table
         cursor.execute("""
-        CREATE TABLE IF NOT EXISTS NotificationPreferences (
+        CREATE TABLE IF NOT EXISTS notification_preferences (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             user_id INTEGER NOT NULL,
             weather_enabled INTEGER DEFAULT 0,
             pollution_enabled INTEGER DEFAULT 0,
             traffic_enabled INTEGER DEFAULT 0,
-            FOREIGN KEY (user_id) REFERENCES Users (id) ON DELETE CASCADE
+            FOREIGN KEY (user_id) REFERENCES user (id) ON DELETE CASCADE
         );
         """)
 
         conn.commit()
 
 def add_user(username, email, password, location):
-    """Add a new user to the Users table."""
+    """Add a new user to the user table."""
     hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
 
     with sqlite3.connect(db) as conn:
         cursor = conn.cursor()
         cursor.execute("""
-        INSERT INTO Users (username, email, password, location)
+        INSERT INTO user (username, email, password, location)
         VALUES (?, ?, ?, ?);
         """, (username, email, hashed_password, location))
         conn.commit()
@@ -55,7 +55,7 @@ def get_user_by_username(username):
         cursor = conn.cursor()
         cursor.execute("""
         SELECT id, username, email, password, location 
-        FROM Users WHERE username = ?;
+        FROM user WHERE username = ?;
         """, (username,))
         return cursor.fetchone()
 
@@ -72,7 +72,7 @@ def add_notification_preferences(user_id, weather, pollution, traffic):
     with sqlite3.connect(db) as conn:
         cursor = conn.cursor()
         cursor.execute("""
-        INSERT INTO NotificationPreferences (user_id, weather_enabled, pollution_enabled, traffic_enabled)
+        INSERT INTO notification_preferences (user_id, weather_enabled, pollution_enabled, traffic_enabled)
         VALUES (?, ?, ?, ?);
         """, (user_id, int(weather), int(pollution), int(traffic)))
         conn.commit()
@@ -83,6 +83,6 @@ def get_notification_preferences(user_id):
         cursor = conn.cursor()
         cursor.execute("""
         SELECT weather_enabled, pollution_enabled, traffic_enabled 
-        FROM NotificationPreferences WHERE user_id = ?;
+        FROM notification_preferences WHERE user_id = ?;
         """, (user_id,))
         return cursor.fetchone()

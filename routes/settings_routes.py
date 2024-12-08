@@ -5,21 +5,21 @@ settings_bp = Blueprint('settings', __name__)
 
 def get_notification_preferences(user_id):
     """Fetch notification preferences for a user."""
-    with sqlite3.connect('database.db') as conn:
+    with sqlite3.connect('instance/database.db') as conn:
         cursor = conn.cursor()
         cursor.execute("""
             SELECT weather_enabled, pollution_enabled, traffic_enabled
-            FROM NotificationPreferences
+            FROM notification_preferences
             WHERE user_id = ?;
         """, (user_id,))
         return cursor.fetchone()
 
 def update_notification_preferences(user_id, weather, pollution, traffic):
     """Update notification preferences for a user."""
-    with sqlite3.connect('database.db') as conn:
+    with sqlite3.connect('instance/database.db') as conn:
         cursor = conn.cursor()
         cursor.execute("""
-            UPDATE NotificationPreferences
+            UPDATE notification_preferences
             SET weather_enabled = ?, pollution_enabled = ?, traffic_enabled = ?
             WHERE user_id = ?;
         """, (weather, pollution, traffic, user_id))
@@ -33,9 +33,9 @@ def settings():
         return redirect(url_for('home'))
 
     try:
-        conn = sqlite3.connect('database.db')
+        conn = sqlite3.connect('instance/database.db')
         cursor = conn.cursor()
-        cursor.execute("SELECT id FROM Users WHERE username = ?", (username,))
+        cursor.execute("SELECT id FROM user WHERE username = ?", (username,))
         user = cursor.fetchone()
         if not user:
             flash('User not found.', 'danger')
@@ -71,11 +71,11 @@ def delete_account():
         return redirect(url_for('home'))
 
     try:
-        conn = sqlite3.connect('database.db')
+        conn = sqlite3.connect('instance/database.db')
         cursor = conn.cursor()
 
         # Find user ID
-        cursor.execute("SELECT id FROM Users WHERE username = ?", (username,))
+        cursor.execute("SELECT id FROM user WHERE username = ?", (username,))
         user = cursor.fetchone()
         if not user:
             flash('User not found.', 'danger')
@@ -84,8 +84,8 @@ def delete_account():
         user_id = user[0]
 
         # Delete associated preferences and user
-        cursor.execute("DELETE FROM NotificationPreferences WHERE user_id = ?", (user_id,))
-        cursor.execute("DELETE FROM Users WHERE id = ?", (user_id,))
+        cursor.execute("DELETE FROM notification_preferences WHERE user_id = ?", (user_id,))
+        cursor.execute("DELETE FROM user WHERE id = ?", (user_id,))
         conn.commit()
 
         session.clear()
