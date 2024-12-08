@@ -3,6 +3,7 @@ from sqlalchemy.sql import text
 from models import db
 from flask import Blueprint, render_template, request
 weather_bp = Blueprint('weather', __name__)
+
 @weather_bp.route('/weather-data')
 def weather_data():
     # Query all locations first
