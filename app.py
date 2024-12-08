@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash, ses
 from config import Config
 from models import db, User
 from routes.user_routes import user_bp
+from routes.settings_routes import settings_bp
 
 from weather_routes import weather_bp  # Import the weather blueprint
 
@@ -18,6 +19,7 @@ db.init_app(app)
 # Register blueprints
 app.register_blueprint(user_bp)
 app.register_blueprint(weather_bp)  # Register the weather blueprint
+app.register_blueprint(settings_bp)
 
 # Root route serving login-template.html
 @app.route('/')
