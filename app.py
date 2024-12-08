@@ -7,6 +7,8 @@ import pandas as pd
 from sqlalchemy.sql import text
 
 from weather_routes import weather_bp  # Import the weather blueprint
+from pollution_routes import pollution_bp
+from traffic_routes import traffic_bp
 
 from datetime import datetime
 import pytz
@@ -21,6 +23,8 @@ db.init_app(app)
 app.register_blueprint(user_bp)
 app.register_blueprint(weather_bp)  # Register the weather blueprint
 app.register_blueprint(settings_bp)
+app.register_blueprint(traffic_bp)
+app.register_blueprint(pollution_bp)
 
 # Root route serving login-template.html
 @app.route('/')
@@ -116,64 +120,64 @@ def signup():
     flash('Account created successfully! Please log in.', 'success')
     return redirect(url_for('home'))
 
-@app.route('/view-pollution-data')
-def view_pollution_data():
-   try:
-       data = pd.read_csv('data/bay_area_pollution_data.csv')
+# @app.route('/view-pollution-data')
+# def view_pollution_data():
+#    try:
+#        data = pd.read_csv('data/bay_area_pollution_data.csv')
 
 
-       selected_location = request.args.get('location', '')
-       if selected_location:
-           data = data[data['Location'] == selected_location]
+#        selected_location = request.args.get('location', '')
+#        if selected_location:
+#            data = data[data['Location'] == selected_location]
 
 
-       table_html = data.to_html(classes='table table-striped', index=False)
+#        table_html = data.to_html(classes='table table-striped', index=False)
 
 
-       locations = data['Location'].unique().tolist()
+#        locations = data['Location'].unique().tolist()
 
 
-   except Exception as e:
-       flash(f"Error reading CSV file: {str(e)}", "danger")
-       return redirect(url_for('home'))
+#    except Exception as e:
+#        flash(f"Error reading CSV file: {str(e)}", "danger")
+#        return redirect(url_for('home'))
 
 
-   return render_template(
-       'pollution-data-view-template.html',
-       table=table_html,
-       locations=locations,
-       selected_location=selected_location
-   )
+#    return render_template(
+#        'pollution-data-view-template.html',
+#        table=table_html,
+#        locations=locations,
+#        selected_location=selected_location
+#    )
 
 
-@app.route('/view-traffic-data')
-def view_traffic_data():
-   try:
-       data = pd.read_csv('data/bay_area_traffic_data.csv')
+# @app.route('/view-traffic-data')
+# def view_traffic_data():
+#    try:
+#        data = pd.read_csv('data/bay_area_traffic_data.csv')
 
 
-       selected_collision_type = request.args.get('collision_type', '')
-       if selected_collision_type:
-           data = data[data['TypeOfCollision'] == selected_collision_type]
+#        selected_collision_type = request.args.get('collision_type', '')
+#        if selected_collision_type:
+#            data = data[data['TypeOfCollision'] == selected_collision_type]
 
 
-       table_html = data.to_html(classes='table table-striped', index=False)
+#        table_html = data.to_html(classes='table table-striped', index=False)
 
 
-       collision_types = data['TypeOfCollision'].unique().tolist()
+#        collision_types = data['TypeOfCollision'].unique().tolist()
 
 
-   except Exception as e:
-       flash(f"Error reading CSV file: {str(e)}", "danger")
-       return redirect(url_for('home'))
+#    except Exception as e:
+#        flash(f"Error reading CSV file: {str(e)}", "danger")
+#        return redirect(url_for('home'))
 
 
-   return render_template(
-       'traffic-data-view-template.html',
-       table=table_html,
-       collision_types=collision_types,
-       selected_collision_type=selected_collision_type
-   )
+#    return render_template(
+#        'traffic-data-view-template.html',
+#        table=table_html,
+#        collision_types=collision_types,
+#        selected_collision_type=selected_collision_type
+#    )
 
 
 # Run the application
