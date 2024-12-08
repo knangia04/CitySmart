@@ -6,9 +6,9 @@ from routes.settings_routes import settings_bp
 import pandas as pd
 from sqlalchemy.sql import text
 
-from weather_routes import weather_bp  # Import the weather blueprint
-from pollution_routes import pollution_bp
-from traffic_routes import traffic_bp
+from routes.weather_routes import weather_bp  # Import the weather blueprint
+from routes.pollution_routes import pollution_bp
+from routes.traffic_routes import traffic_bp
 
 from datetime import datetime
 import pytz

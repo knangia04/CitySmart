@@ -2,7 +2,7 @@ from flask import Blueprint, render_template, request, flash, redirect, url_for
 import pandas as pd
 
 
-pollution_bp = Blueprint('pollution', __name__, url_prefix='/pollution')
+pollution_bp = Blueprint('pollution', __name__)
 
 
 @pollution_bp.route('/view-pollution-data')
