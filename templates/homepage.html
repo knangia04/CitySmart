@@ -8,10 +8,17 @@
     <style>
         .stats-container {
             margin-top: 30px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap; /* Ensures responsive layout */
+        }
+        .stats-box {
+            flex: 1 1 calc(50% - 20px); /* Two boxes per row with spacing */
             padding: 20px;
             background-color: #327fb3;  /* Light blue background */
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            min-width: 300px; /* Minimum width for smaller screens */
         }
         .stats-table {
             width: 100%;
@@ -37,29 +44,55 @@
             <a href="{{ url_for('weather.weather_data') }}" class="nav-link">Weather Data</a>
         </nav>
 
-        {% if avg_stats %}
         <div class="stats-container">
-            <h2>Weather and Pollution in {{ location }}</h2>
-            <table class="stats-table">
-                <tr>
-                    <td>Average Temperature:</td>
-                    <td>{{ "%.2f"|format(avg_stats.AvgTemperature) }}°C</td>
-                </tr>
-                <tr>
-                    <td>Average Humidity:</td>
-                    <td>{{ "%.2f"|format(avg_stats.AvgHumidity) }}%</td>
-                </tr>
-                <tr>
-                    <td>Average Fine Particulate Matter:</td>
-                    <td>{{ "%.2f"|format(avg_stats.AvgFineParticulateMatter) }} µg/m³</td>
-                </tr>
-                <tr>
-                    <td>Average Ozone Level:</td>
-                    <td>{{ "%.2f"|format(avg_stats.AvgOzoneLevel) }} ppb</td>
-                </tr>
-            </table>
+            <!-- Current Weather Box -->
+            <div class="stats-box">
+                <h2>Current Weather in {{ location }}</h2>
+                <table class="stats-table">
+                    <tr>
+                        <td>Temperature:</td>
+                        <td>{{ curr_temp }}°C</td>
+                    </tr>
+                    <tr>
+                        <td>Condition:</td>
+                        <td>{{ curr_condition }}</td>
+                    </tr>
+                    <tr>
+                        <td>Humidity:</td>
+                        <td>{{ curr_humidity }}%</td>
+                    </tr>
+                    <tr>
+                        <td>Wind Speed:</td>
+                        <td>{{ curr_windspeed }} km/h</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Average Stats Box -->
+            {% if avg_stats %}
+            <div class="stats-box">
+                <h2>Weather and Pollution in {{ location }}</h2>
+                <table class="stats-table">
+                    <tr>
+                        <td>Average Temperature:</td>
+                        <td>{{ "%.2f"|format(avg_stats.AvgTemperature) }}°C</td>
+                    </tr>
+                    <tr>
+                        <td>Average Humidity:</td>
+                        <td>{{ "%.2f"|format(avg_stats.AvgHumidity) }}%</td>
+                    </tr>
+                    <tr>
+                        <td>Average Fine Particulate Matter:</td>
+                        <td>{{ "%.2f"|format(avg_stats.AvgFineParticulateMatter) }} µg/m³</td>
+                    </tr>
+                    <tr>
+                        <td>Average Ozone Level:</td>
+                        <td>{{ "%.2f"|format(avg_stats.AvgOzoneLevel) }} ppb</td>
+                    </tr>
+                </table>
+            </div>
+            {% endif %}
         </div>
-        {% endif %}
     </div>
 
     <script>
@@ -81,6 +114,7 @@
     </script>
 </body>
 </html>
+
 <!-- <!DOCTYPE html>
 <html lang="en">
 <head>
