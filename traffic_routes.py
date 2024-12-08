@@ -1,35 +1,44 @@
-from flask import Blueprint, render_template, request, flash, redirect, url_for
-import pandas as pd
+import sqlite3
+from flask import Blueprint, render_template, request
 
 
-traffic_bp = Blueprint('traffic', __name__, url_prefix='/traffic')
+traffic_bp = Blueprint('traffic', __name__)
 
 
-@traffic_bp.route('/view-traffic-data')
-def view_traffic_data():
-  try:
-      data = pd.read_csv('data/bay_area_traffic_data.csv')
+def get_db_connection():
+   """
+   Establish a connection to the SQLite database.
+   Returns a connection object.
+   """
+   connection = sqlite3.connect('instance/database.db')  
+   connection.row_factory = sqlite3.Row  
+   return connection
 
 
-      selected_collision_type = request.args.get('collision_type', '')
-      if selected_collision_type:
-          data = data[data['TypeOfCollision'] == selected_collision_type]
+@traffic_bp.route('/traffic-data')
+def traffic_data():
+   conn = get_db_connection()
 
 
-      table_html = data.to_html(classes='table table-striped', index=False)
+   collision_types_query = 'SELECT DISTINCT TypeOfCollision FROM TrafficData ORDER BY TypeOfCollision'
+   collision_types = [row['TypeOfCollision'] for row in conn.execute(collision_types_query).fetchall()]
 
 
-      collision_types = data['TypeOfCollision'].unique().tolist()
+   selected_collision_type = request.args.get('type_of_collision', 'all')
 
 
-  except Exception as e:
-      flash(f"Error reading CSV file: {str(e)}", "danger")
-      return redirect(url_for('home'))
+   if selected_collision_type and selected_collision_type != 'all':
+       query = 'SELECT * FROM TrafficData WHERE TypeOfCollision = ? ORDER BY Timestamp'
+       traffic_records = conn.execute(query, (selected_collision_type,)).fetchall()
+   else:
+       query = 'SELECT * FROM TrafficData ORDER BY Timestamp'
+       traffic_records = conn.execute(query).fetchall()
 
 
-  return render_template(
-      'traffic-data-view-template.html',
-      table=table_html,
-      collision_types=collision_types,
-      selected_collision_type=selected_collision_type
-  )
+   conn.close()
+
+
+   return render_template('traffic-data.html',
+                          traffic_records=traffic_records,
+                          collision_types=collision_types,
+                          selected_collision_type=selected_collision_type)
