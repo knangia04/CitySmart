@@ -1,8 +1,13 @@
-from flask import Flask, render_template, request, redirect, url_for, flash
+from flask import Flask, render_template, request, redirect, url_for, flash, session
 from config import Config
 from models import db, User
 from routes.user_routes import user_bp
+
 from weather_routes import weather_bp  # Import the weather blueprint
+
+from datetime import datetime
+import pytz
+
 
 app = Flask(__name__, static_folder='static')
 app.config.from_object(Config)
@@ -19,7 +24,22 @@ app.register_blueprint(weather_bp)  # Register the weather blueprint
 def home():
     return render_template('login-template.html')
 
+
 # Other routes (login, signup, etc.)
+
+@app.route('/homepage')
+def homepage():
+    username = session.get('username', 'Guest')
+    location = session.get('location', 'UTC')
+
+    timezone = 'America/Los_Angeles'
+    current_time = datetime.now(pytz.timezone(timezone)).strftime('%I:%M:%S %p')
+
+    return render_template('homepage.html', username=username, location=location, current_time=current_time)
+
+
+
+
 @app.route('/login', methods=['POST'])
 def login():
     username = request.form.get('username')
@@ -28,7 +48,9 @@ def login():
     user = User.query.filter_by(username=username).first()
     if user and user.password == password:
         flash('Login successful!', 'success')
-        return redirect(url_for('home'))
+        session['username'] = user.username
+        session['location'] = user.location
+        return redirect(url_for('homepage'))
     else:
         flash('Invalid username or password', 'danger')
         return redirect(url_for('home'))
@@ -40,6 +62,7 @@ def signup():
     username = request.form.get('username')
     password = request.form.get('password')
     confirm_password = request.form.get('confirm-password')
+    location = request.form.get('location')
 
     if password != confirm_password:
         flash('Passwords do not match!', 'danger')
@@ -52,8 +75,9 @@ def signup():
         flash('Username is already taken!', 'danger')
         return redirect(url_for('home'))
 
-    new_user = User(username=username, email=email)
-    new_user.set_password(password)
+    # Create a new user
+    new_user = User(username=username, email=email, password = password, location=location)
+
     db.session.add(new_user)
     db.session.commit()
 
