@@ -5,6 +5,7 @@ from models import init_db, add_user, get_user_by_username, check_password
 from datetime import datetime
 import pytz
 import sqlite3
+import weather_api
 
 # from routes.user_routes import user_bp
 from routes.settings_routes import settings_bp
@@ -61,7 +62,10 @@ def homepage():
             WHERE W.Location = ?
             GROUP BY W.Location
         """, (location,))
+        
         result = cursor.fetchone()
+        curr_temp, curr_condition, curr_humidity, curr_wind = weather_api.getCurrWeather(location)
+        
         if result:
             avg_stats = {
                 'Location': result[0],
@@ -82,7 +86,11 @@ def homepage():
         username=username,
         location=location,
         current_time=current_time,
-        avg_stats=avg_stats
+        avg_stats=avg_stats,
+        curr_temp=curr_temp,
+        curr_condition=curr_condition,
+        curr_humidity=curr_humidity,
+        curr_windspeed = curr_wind
     )
 
 @app.route('/login', methods=['POST'])
