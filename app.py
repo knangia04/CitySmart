@@ -4,6 +4,7 @@ from models import db, User
 from routes.user_routes import user_bp
 from routes.settings_routes import settings_bp
 import pandas as pd
+import sqlite3
 
 from weather_routes import weather_bp  # Import the weather blueprint
 
@@ -28,6 +29,64 @@ def home():
 
 
 # Other routes (login, signup, etc.)
+def fetch_weather_stats(location):
+    try:
+        # Connect to the SQLite database
+        conn = sqlite3.connect('instance/database.db')
+        cursor = conn.cursor()
+
+        # Enable foreign keys (if necessary)
+        cursor.execute("PRAGMA foreign_keys = ON")
+
+        # Start transaction
+        conn.isolation_level = None
+        cursor.execute("BEGIN TRANSACTION")
+
+        # Query to fetch average weather and pollution data
+        query = """
+            SELECT W.Location, 
+                   AVG(W.Temperature) AS AvgTemperature, 
+                   AVG(W.Humidity) AS AvgHumidity,
+                   AVG(P.FineParticulateMatter) AS AvgFineParticulateMatter, 
+                   AVG(P.OzoneLevel) AS AvgOzoneLevel
+            FROM WeatherData W
+            JOIN PollutionData P ON W.Location = P.Location
+            WHERE W.Location = ?
+            GROUP BY W.Location
+        """
+
+        # Execute the query with the location parameter
+        cursor.execute(query, (location,))
+        result = cursor.fetchone()
+
+        # Commit the transaction if successful
+        conn.commit()
+
+        # Format the result as a dictionary (optional, for easier usage)
+        if result:
+            result_dict = {
+                "Location": result[0],
+                "AvgTemperature": result[1],
+                "AvgHumidity": result[2],
+                "AvgFineParticulateMatter": result[3],
+                "AvgOzoneLevel": result[4],
+            }
+        else:
+            result_dict = None
+
+        return result_dict
+
+    except Exception as e:
+        # Rollback in case of an error
+        if conn:
+            conn.rollback()
+        print(f"Error fetching weather stats: {str(e)}")
+        return None  # Handle error gracefully
+
+    finally:
+        # Close the database connection
+        if conn:
+            conn.close()
 
 @app.route('/homepage')
 def homepage():
@@ -36,8 +95,20 @@ def homepage():
 
     timezone = 'America/Los_Angeles'
     current_time = datetime.now(pytz.timezone(timezone)).strftime('%I:%M:%S %p')
-
-    return render_template('homepage.html', username=username, location=location, current_time=current_time)
+    result = fetch_weather_stats(location)
+    print(result)
+    return render_template(
+        'homepage.html', 
+        username=username, 
+        location=location, 
+        current_time=current_time, 
+        avg_stats=result,
+        # curr_temp=curr_temp,
+        # curr_condition=curr_condition,
+        # curr_humidity=curr_humidity,
+        # curr_windspeed = curr_wind
+    )
+    #return render_template('homepage.html', username=username, location=location, current_time=current_time)
 
 
 
