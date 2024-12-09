@@ -1,44 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Traffic Data</title>
+  <title>Traffic Data Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    h1, h3 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    form {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    select, button {
+      padding: 8px 12px;
+      font-size: 16px;
+      margin: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #e74c3c;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #c0392b;
+    }
+    table {
+      width: 80%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #2c3e50;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+    p {
+      text-align: center;
+      font-size: 18px;
+    }
+  </style>
 </head>
 <body>
-   <h1>Traffic Data Viewer</h1>
+  <h1>Traffic Data Viewer</h1>
 
-   <h3>Filter by Type of Collision:</h3>
-   <form method="get" action="/traffic-data">
-       <select name="type_of_collision">
-           <option value="all" {% if selected_collision_type == 'all' %}selected{% endif %}>All Types</option>
-           {% for collision_type in collision_types %}
-               <option value="{{ collision_type }}" {% if collision_type == selected_collision_type %}selected{% endif %}>
-                   {{ collision_type }}
-               </option>
-           {% endfor %}
-       </select>
-       <button type="submit">Filter</button>
-   </form>
+  <h3>Filter by Type of Collision:</h3>
+  <form method="get" action="/traffic-data">
+      <select name="type_of_collision">
+          <option value="all" {% if selected_collision_type == 'all' %}selected{% endif %}>All Types</option>
+          {% for collision_type in collision_types %}
+              <option value="{{ collision_type }}" {% if collision_type == selected_collision_type %}selected{% endif %}>
+                  {{ collision_type }}
+              </option>
+          {% endfor %}
+      </select>
+      <button type="submit">Filter</button>
+  </form>
 
-   <h3>Data Table</h3>
-   {% if traffic_records %}
-       <table border="1" cellpadding="5" cellspacing="0">
-           <tr>
-               <th>Timestamp</th>
-               <th>Route</th>
-               <th>Type of Collision</th>
-               <th>Description</th>
-           </tr>
-           {% for record in traffic_records %}
-               <tr>
-                   <td>{{ record['Timestamp'] }}</td>
-                   <td>{{ record['Route'] }}</td>
-                   <td>{{ record['TypeOfCollision'] }}</td>
-                   <td>{{ record['Description'] }}</td>
-               </tr>
-           {% endfor %}
-       </table>
-   {% else %}
-       <p>No traffic data available for the selected type of collision.</p>
-   {% endif %}
+  <h3>Data Table</h3>
+  {% if traffic_records %}
+      <table>
+          <tr>
+              <th>Timestamp</th>
+              <th>Route</th>
+              <th>Type of Collision</th>
+              <th>Description</th>
+          </tr>
+          {% for record in traffic_records %}
+              <tr>
+                  <td>{{ record['Timestamp'] }}</td>
+                  <td>{{ record['Route'] }}</td>
+                  <td>{{ record['TypeOfCollision'] }}</td>
+                  <td>{{ record['Description'] }}</td>
+              </tr>
+          {% endfor %}
+      </table>
+  {% else %}
+      <p>No traffic data available for the selected type of collision.</p>
+  {% endif %}
 </body>
 </html>

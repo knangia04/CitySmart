@@ -1,44 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Pollution Data</title>
+  <title>Pollution Data Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    h1, h3 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    form {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    select, button {
+      padding: 8px 12px;
+      font-size: 16px;
+      margin: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+    table {
+      width: 80%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #2c3e50;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+    p {
+      text-align: center;
+      font-size: 18px;
+    }
+  </style>
 </head>
 <body>
-   <h1>Pollution Data Viewer</h1>
+  <h1>Pollution Data Viewer</h1>
 
-   <h3>Filter by Location:</h3>
-   <form method="get" action="/pollution-data">
-       <select name="location">
-           <option value="all" {% if selected_location == 'all' %}selected{% endif %}>All Locations</option>
-           {% for location in locations %}
-               <option value="{{ location }}" {% if location == selected_location %}selected{% endif %}>
-                   {{ location }}
-               </option>
-           {% endfor %}
-       </select>
-       <button type="submit">Filter</button>
-   </form>
+  <h3>Filter by Location:</h3>
+  <form method="get" action="/pollution-data">
+      <select name="location">
+          <option value="all" {% if selected_location == 'all' %}selected{% endif %}>All Locations</option>
+          {% for location in locations %}
+              <option value="{{ location }}" {% if location == selected_location %}selected{% endif %}>
+                  {{ location }}
+              </option>
+          {% endfor %}
+      </select>
+      <button type="submit">Filter</button>
+  </form>
 
-   <h3>Data Table</h3>
-   {% if pollution_records %}
-       <table border="1" cellpadding="5" cellspacing="0">
-           <tr>
-               <th>Timestamp</th>
-               <th>Location</th>
-               <th>Ozone Level</th>
-               <th>Fine Particulate Matter</th>
-           </tr>
-           {% for record in pollution_records %}
-               <tr>
-                   <td>{{ record['timestamp'] }}</td>
-                   <td>{{ record['location'] }}</td>
-                   <td>{{ record['OzoneLevel'] }}</td>
-                   <td>{{ record['FineParticulateMatter'] }}</td>
-               </tr>
-           {% endfor %}
-       </table>
-   {% else %}
-       <p>No pollution data available for the selected location.</p>
-   {% endif %}
+  <h3>Data Table</h3>
+  {% if pollution_records %}
+      <table>
+          <tr>
+              <th>Timestamp</th>
+              <th>Location</th>
+              <th>Ozone Level</th>
+              <th>Fine Particulate Matter</th>
+          </tr>
+          {% for record in pollution_records %}
+              <tr>
+                  <td>{{ record['timestamp'] }}</td>
+                  <td>{{ record['location'] }}</td>
+                  <td>{{ record['OzoneLevel'] }}</td>
+                  <td>{{ record['FineParticulateMatter'] }}</td>
+              </tr>
+          {% endfor %}
+      </table>
+  {% else %}
+      <p>No pollution data available for the selected location.</p>
+  {% endif %}
 </body>
 </html>
